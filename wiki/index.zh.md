@@ -48,6 +48,7 @@ English: [index.md](index.md)
 
 | 页面 | 一句话摘要 |
 |---|---|
+| [rag-vs-agentic-rag-vs-xingai](syntheses/rag-vs-agentic-rag-vs-xingai.zh.md) | RAG / AI Agent / Multi-Agent RAG 海报对比第 02–05 课——「vs」是假互斥;MCP 无墙。 |
 | [mcp-vs-rag-vs-skills](syntheses/mcp-vs-rag-vs-skills.zh.md) | 三栏海报对比 XingAI:构成关系而非"二选一";Skills≠MCP 工具。 |
 | [claims-poc-family-tradeoffs](syntheses/claims-poc-family-tradeoffs.zh.md) | 四个 claims POC 之间 Auth vs Coverage vs 工作流的矩阵(+ event-bus 对照)。 |
 | [review-findings-2026-07-16](syntheses/review-findings-2026-07-16.zh.md) | 课程审计记录:结构、代码、链接、双语一致性。 |

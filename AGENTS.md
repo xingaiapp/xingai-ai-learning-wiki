@@ -104,6 +104,8 @@ Skills carry the same checklist:
   - `wiki/concepts/*.md` — cross-cutting patterns that appear in more than
     one course or public POC.
   - `wiki/syntheses/*.md` — durable answers filed back into the wiki.
+  - `wiki/assets/ux/<slug>/` — UX PNGs embedded by wiki pages when chrome /
+    flow / theme / demo UI is part of the story (see UX PNG rule below).
 
 ## Operations
 
@@ -141,7 +143,11 @@ When a new **public** raw source is added:
 8. **Bilingual audit:** every content page under `wiki/` (courses, products,
    concepts, syntheses, index, overview) has a matching `.zh.md`; section
    counts match; mutual language links present; no EN-only lag.
-9. Record findings as a `lint` entry in `log.md`; file anything substantial
+9. **UX audit:** pages that discuss chrome / flow / theme / demo UI either
+   embed `wiki/assets/ux/...` on both EN and ZH or explicitly note that no
+   asset is available; no third-party-authored marketing posters; no orphan
+   UX files without a linking page.
+10. Record findings as a `lint` entry in `log.md`; file anything substantial
    as a `wiki/syntheses/` page (EN+ZH).
 
 ## Log format
@@ -176,6 +182,14 @@ When a new **public** raw source is added:
   - **Exception:** `wiki/log.md` stays English-only (ops chronology).
   - Write **both languages in the same ingest pass** — never ship EN and
     leave ZH as TODO.
+- **UX PNG when needed:** if a page is about product chrome, flow, theme, or
+  demo UI — or a UX screenshot was attached / exists in a public snapshot —
+  copy the durable PNG into `wiki/assets/ux/<slug>/` and embed it on **both**
+  EN and ZH pages (same relative path; localize alt text). Prefer light+dark
+  pairs when theme-dependent. Do not bulk-dump every image; **need** beats
+  completeness. Do **not** create wiki pages for third-party-authored marketing
+  posters (clear non-XingAI credit on-image). Skill detail:
+  `~/.cursor/skills/xingai-wiki-ingest/references/ux-png.md`.
 - Every wiki page ends with a `## Sources` section linking back to specific
   `raw/` file(s) or noting analysis over public sources actually read.
 - Claims about “what the code does” need verification notes when the POC is

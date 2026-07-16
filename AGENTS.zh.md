@@ -100,6 +100,8 @@ Cursor 技能:**`xingai-ai-learning-wiki`**(公开仓库同步)与
   - `wiki/products/*.md` —— 每个**公开**产品/POC 一个实体页。
   - `wiki/concepts/*.md` —— 在多门课程或多个公开 POC 中反复出现的跨领域模式。
   - `wiki/syntheses/*.md` —— 归档回 wiki 的持久性答案。
+  - `wiki/assets/ux/<slug>/` —— 当 chrome / 流程 / 主题 / 演示 UI 是故事的一部分时,
+    由 wiki 页面嵌入的 UX PNG(见下方 UX PNG 规则)。
 
 ## 操作
 
@@ -136,7 +138,10 @@ Cursor 技能:**`xingai-ai-learning-wiki`**(公开仓库同步)与
 8. **双语审计:** `wiki/` 下每个内容页(courses、products、concepts、
    syntheses、index、overview)都有对应的 `.zh.md`;段落数一致;互相的语言
    链接存在;不存在只有英文、中文滞后的情况。
-9. 将发现记录为 `log.md` 中的一条 `lint` 记录;将实质性内容归档为
+9. **UX 审计:** 讨论 chrome / 流程 / 主题 / 演示 UI 的页面,要么在 EN+ZH 两边
+   都嵌入 `wiki/assets/ux/...`,要么明确写「尚无 UX 资产」;不要保留第三方署名
+   营销海报;不要留下没有页面引用的孤立 UX 文件。
+10. 将发现记录为 `log.md` 中的一条 `lint` 记录;将实质性内容归档为
    `wiki/syntheses/` 页面(EN+ZH)。
 
 ## 日志格式
@@ -169,6 +174,12 @@ Cursor 技能:**`xingai-ai-learning-wiki`**(公开仓库同步)与
   - **例外:** `wiki/log.md` 保持仅英文(运维时间线)。
   - **两种语言在同一次摄入中一起写**——绝不让一种语言先上线、另一种
     语言留作待办。
+- **需要时纳入 UX PNG:** 若页面讨论产品 chrome、流程、主题或演示 UI——或
+  用户附上了 UX 截图 / 公开快照中已有——把持久 PNG 复制到
+  `wiki/assets/ux/<slug>/`,并在 **EN 与 ZH** 两边嵌入(相同相对路径;仅本地化
+  alt)。主题相关时优先 light+dark 成对。不要把仓库里每张图都倒进来;**需要**
+  优先于齐全。**不要**为第三方署名营销海报建 wiki 页(图上有明确的非 XingAI
+  署名)。细则:`~/.cursor/skills/xingai-wiki-ingest/references/ux-png.md`。
 - 每个 wiki 页面结尾都有一个 `## Sources` 段,链接回具体的 `raw/` 文件,
   或注明是对实际读过的公开来源所做的分析。
 - 关于"代码做了什么"的结论,在 POC 可核实时需要附验证记录;否则标记为

@@ -11,7 +11,7 @@ Retrieval-augmented generation as a discipline, not a library call: ingest → p
 - [claims-multiagent-rag-poc](../products/claims-multiagent-rag-poc.md), [claims-workflow-v2-poc](../products/claims-workflow-v2-poc.md)
 - [Concept: Cache / fallback LLM discipline](../concepts/cache-first-llm-architecture.md) — RAG's retrieval step is itself a cache-vs-recompute decision at a different layer.
 - The `recall_at_k` metric taught here is the same evaluation instinct Course 06 generalizes into golden/adversarial sets and release gates.
-- Marketing “RAG column” posters often stop at embed→vector DB — critique: [MCP vs RAG vs Skills](../syntheses/mcp-vs-rag-vs-skills.md).
+- Marketing “RAG column” posters often stop at embed→vector DB — critique: [MCP vs RAG vs Skills](../syntheses/mcp-vs-rag-vs-skills.md); ladder cut: [RAG vs Agentic RAG](../syntheses/rag-vs-agentic-rag-vs-xingai.md).
 
 ## Verified
 

@@ -47,6 +47,7 @@ Start at [overview.md](overview.md) if you're new here. This page is the flat ca
 
 | Page | One-line summary |
 |---|---|
+| [rag-vs-agentic-rag-vs-xingai](syntheses/rag-vs-agentic-rag-vs-xingai.md) | RAG / AI Agent / Multi-Agent RAG poster vs Courses 02–05 — “vs” false; MCP without walls. |
 | [mcp-vs-rag-vs-skills](syntheses/mcp-vs-rag-vs-skills.md) | Three-column poster vs XingAI: composition over “vs”; Skills≠MCP tools. |
 | [claims-poc-family-tradeoffs](syntheses/claims-poc-family-tradeoffs.md) | Auth vs coverage vs workflow matrix across the four claims POCs (+ event-bus contrast). |
 | [review-findings-2026-07-16](syntheses/review-findings-2026-07-16.md) | Courses audit trail: structure, code, links, bilingual parity. |

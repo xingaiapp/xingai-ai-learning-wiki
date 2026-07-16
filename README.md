@@ -61,7 +61,9 @@ Trigger with those names or `/xingai-ai-learning-wiki` / `/xingai-wiki-ingest`.
 Trial / v0. Full public-repo sync last run **2026-07-16**. Wiki content pages
 are bilingual (`wiki/**/*.md` + `*.zh.md`). Dropped third-party-authored image
 wiki (Michael Lee / Rishi posters) the same day — keep XingAI public sources +
-unattributed critique packages only when useful. Skipped: `xingai-ai-learning-wiki`
+unattributed critique packages only when useful. UX PNGs go under
+`wiki/assets/ux/` when chrome/flow visuals are needed. Latest external
+ingest: RAG vs Agentic RAG critique. Skipped: `xingai-ai-learning-wiki`
 (self), `xingai-dot-app` (P2 marketing). Deep enterprise course bodies not fully
 snapshotted yet (README index only).
 

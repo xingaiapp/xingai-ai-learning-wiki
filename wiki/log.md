@@ -76,4 +76,13 @@ Removed wiki + `raw/external/` for images with non-XingAI author credits:
 
 Deleted synthesis pages (EN+ZH) and scrubbed links from index, Course 00, loop-engineering, agent-governance, mcp-vs-rag-vs-skills. **Kept** `mcp-vs-rag-vs-skills` (no author line on crop — not clearly third-party-attributed).
 
+## [2026-07-16] lint | UX PNG rule in skills + AGENTS
+
+Both Cursor skills (`xingai-ai-learning-wiki`, `xingai-wiki-ingest`) and `AGENTS.md` / `AGENTS.zh.md` now require embedding XingAI UX PNGs under `wiki/assets/ux/<slug>/` when chrome/flow/theme/demo visuals are needed (EN+ZH same path). Shared detail: `~/.cursor/skills/xingai-wiki-ingest/references/ux-png.md`. Still refuse third-party-authored marketing posters.
+
+## [2026-07-16] ingest | external: RAG vs Agentic RAG (image)
+
+Unattributed three-panel poster (Standard RAG / AI Agent / Multi-Agent RAG + MCP Servers). Package: `raw/external/2026-07-16-rag-vs-agentic-rag/`. Wiki: [syntheses/rag-vs-agentic-rag-vs-xingai.md](syntheses/rag-vs-agentic-rag-vs-xingai.md) · [中文](syntheses/rag-vs-agentic-rag-vs-xingai.zh.md). `verified: partial`. Ownership gate: no clear non-XingAI author → critique ingest OK (not UX). Critique: “vs” false exclusivity; middle panel is tool-agent not grounded RAG; Multi-Agent MCP without auth walls; Vector Db assumed. Linked from Course 02 + mcp-vs-rag-vs-skills; index EN+ZH updated.
+
+
 
