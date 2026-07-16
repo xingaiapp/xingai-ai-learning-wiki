@@ -16,7 +16,8 @@ Specialization after the Level 0–9 hiring ladder. Twenty-six modules: protocol
 ## Known
 
 - Course README + 26 bilingual modules published in `xingai-enterprise-ai-design` (2026-07-16).
-- Final rules match the ingested outline (`OAuth → API`, `OIDC → login`, two-wall scope vs business policy).
+- Final rules match the course hub (`OAuth → API`, `OIDC → login`, two-wall scope vs business policy).
+- Concept catalog pages under [`oauth-oidc-azure-identity`](../concepts/oauth-oidc-azure-identity/00-overview.md) were **rewritten from Course 10** (teach block + epistemic critique), with raw snapshot at `raw/xingai-enterprise-ai-design/courses/10-oauth-oidc-azure-identity/`.
 
 ## Missing
 

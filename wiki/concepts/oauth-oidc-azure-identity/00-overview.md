@@ -2,18 +2,39 @@
 
 Chinese: [00-overview.zh.md](00-overview.zh.md)
 
-Teaching catalog ingested from a user-owned outline (`raw/external/2026-07-16-oauth-oidc-azure-identity-api-security/content.md`). Pages **critique and map** the outline onto XingAI public MCP/OAuth materials — they are not a paste of the outline.
+Wiki synthesis of **[Course 10](https://github.com/xingaiapp/xingai-enterprise-ai-design/blob/main/courses/10-oauth-oidc-azure-identity/README.md)** in `xingai-enterprise-ai-design`. Pages carry the course teach block (5W + diagram + minimal check), then critique gaps against XingAI public MCP/OAuth materials.
 
-**Course:** [Course 10 in xingai-enterprise-ai-design](https://github.com/xingaiapp/xingai-enterprise-ai-design/blob/main/courses/10-oauth-oidc-azure-identity/README.md) · [wiki course page](../../courses/10-oauth-oidc-azure-identity.md)
+**Not** a paste of the old external outline. Outline history remains under `raw/external/2026-07-16-oauth-oidc-azure-identity-api-security/` for provenance only.
 
-**No UX PNG** for this ingest (identity theory / Azure mapping; no product chrome attached).
+**Course hub (wiki):** [10-oauth-oidc-azure-identity](../../courses/10-oauth-oidc-azure-identity.md)  
+**Raw snapshot:** `raw/xingai-enterprise-ai-design/courses/10-oauth-oidc-azure-identity/`
+
+**No UX PNG** (identity theory / Azure mapping; no product chrome).
 
 ## How to read
 
-1. Start with [02 Authentication vs Authorization](02-authentication-vs-authorization.md) and [05 ID vs Access Token](05-id-token-vs-access-token.md).
-2. Then [06 Auth Code + PKCE](06-authorization-code-flow-pkce.md) and [10 Scope / Role / Business](10-scope-role-business-authorization.md).
-3. For agents/MCP: [22 MCP Server AuthN/AuthZ](22-mcp-server-authn-authz.md) + [agent-governance-and-mcp](../agent-governance-and-mcp.md).
-4. Treat Azure pages (12–21, 26) as **reference mapping**, not “XingAI already runs this stack.”
+1. Protocol: [02 AuthN vs AuthZ](02-authentication-vs-authorization.md) → [05 ID vs Access Token](05-id-token-vs-access-token.md) → [06 Code + PKCE](06-authorization-code-flow-pkce.md) → [10 Scope / business](10-scope-role-business-authorization.md).
+2. Azure mapping: [12 Entra](12-microsoft-entra-id-architecture.md) through [21 External ID](21-microsoft-entra-external-id.md) — portable OIDC terms first.
+3. Agents/ops: [22 MCP AuthN/AuthZ](22-mcp-server-authn-authz.md) + [agent-governance-and-mcp](../agent-governance-and-mcp.md) + [Course 04](../../courses/04-mcp-interoperability.md).
+4. Lab gate: [PKCE MCP lab](https://github.com/xingaiapp/xingai-enterprise-ai-design/blob/main/guides/2026-07-12-mcp-oauth-pkce-lab.md).
+
+## Final rules (Course 10)
+
+```text
+OAuth → API authorization
+OIDC → user login
+ID Token → Client
+Access Token → API / MCP Server
+Refresh Token → Authorization Server
+Authorization Code → Token Endpoint
+state → protect callback
+nonce → protect ID Token
+PKCE → protect Authorization Code
+Scope → what you can do (capability)
+Role → what role you are
+Business Policy → whether this business object is allowed
+Session → application login state
+```
 
 ## Catalog
 
@@ -48,27 +69,30 @@ Teaching catalog ingested from a user-owned outline (`raw/external/2026-07-16-oa
 
 ## Known
 
-- Outline defines a coherent beginner→Azure-practice spine (§1–§24) in `raw/external/2026-07-16-oauth-oidc-azure-identity-api-security/content.md`.
-- XingAI already has runnable OAuth+PKCE+two-wall teaching via [claims-mcp-oauth-poc](../../products/claims-mcp-oauth-poc.md) and [Course 04](../../courses/04-mcp-interoperability.md).
+- Course 10 published in public `xingai-enterprise-ai-design` with 26 bilingual modules + hub (snapshotted under `raw/xingai-enterprise-ai-design/courses/10-oauth-oidc-azure-identity/`).
+- Runnable teaching path already existed: [PKCE lab](https://github.com/xingaiapp/xingai-enterprise-ai-design/blob/main/guides/2026-07-12-mcp-oauth-pkce-lab.md) + [Course 04](../../courses/04-mcp-interoperability.md) + [claims-mcp-oauth-poc](../../products/claims-mcp-oauth-poc.md) two-wall model.
 
 ## Missing
 
-- Live Entra tenant screenshots / discovery JSON / APIM policies in this wiki.
-- Code-verified citations into POC source for every bullet (partial; product pages exist).
+- Live Entra tenant screenshots / APIM policy XML / MSAL samples inside Course 10 modules.
+- Portable Fly/Vercel twin of Module 26’s Azure reference diagram.
 
 ## Rethink
 
-- Full Azure reference architecture as default for every OSS POC reduces portability.
-- “OAuth integrated” without business policy fails the two-wall standard.
+- Older wiki pages that only cited the external outline under-taught diagrams and fail-closed checks — rewritten against Course 10.
+- “OAuth integrated” without business policy still fails the two-wall bar.
 
 ## Debate
 
-- Entra-first vs IdP-portable teaching stacks for XingAI public repos.
+- Keep Course 10 as specialization vs promote it onto the hiring ladder as Level 10.
+- Entra-first vs IdP-portable defaults for public XingAI repos.
 
 ## Needs evidence
 
-- Which XingAI production apps use Entra External ID, MSAL, or APIM today.
+- Which XingAI production/demo apps use Entra External ID, MSAL, or APIM today.
 
 ## Sources
 
-- `raw/external/2026-07-16-oauth-oidc-azure-identity-api-security/content.md`, `raw/external/2026-07-16-oauth-oidc-azure-identity-api-security/SOURCE.md`
+- [Course 10 README](https://github.com/xingaiapp/xingai-enterprise-ai-design/blob/main/courses/10-oauth-oidc-azure-identity/README.md)
+- `raw/xingai-enterprise-ai-design/courses/10-oauth-oidc-azure-identity/`
+- Provenance outline (superseded as teaching source): `raw/external/2026-07-16-oauth-oidc-azure-identity-api-security/`

@@ -1,35 +1,72 @@
-# 01. 身份与访问管理总览
+# 01. 身份与访问管理概览
 
 English: [01-iam-overview.md](01-iam-overview.md)
 
-属于 [OAuth / OIDC / Azure Identity 目录](00-overview.zh.md)。
+属于 [OAuth / OIDC / Azure Identity 目录](00-overview.zh.md)。  
+**主要教学来源：** [课程 10 · 模块 01](https://github.com/xingaiapp/xingai-enterprise-ai-design/blob/main/courses/10-oauth-oidc-azure-identity/modules/01-iam-overview.zh.md) · [主页](https://github.com/xingaiapp/xingai-enterprise-ai-design/blob/main/courses/10-oauth-oidc-azure-identity/README.zh.md)
 
-本页打开偏 Azure 的 IAM 学习轨道。按下方目录阅读；不要把 Azure 服务名当成「XingAI 已实现」。
+## 教学要点（来自课程 10）
 
-## 已知
+- **是什么：** 
+- **为什么：** 
+- **谁：** 
+- **何时：** 
+- **何处：** 
+- **怎么做：** 
 
-- 大纲 §1–§23：OAuth=API 授权，OIDC=登录身份；最终规则见 `raw/external/2026-07-16-oauth-oidc-azure-identity-api-security/content.md`。
-- XingAI 已区分墙 #1（OAuth scope）与墙 #2（业务策略）——见 [agent-governance-and-mcp](../agent-governance-and-mcp.zh.md)、[claims-mcp-oauth-poc](../../products/claims-mcp-oauth-poc.zh.md)。
+### 图示
 
-## 缺失
+```mermaid
+flowchart TB
+    Id[Identities] --> AuthN[Authentication]
+    AuthN --> Tok[Tokens / sessions]
+    Tok --> AuthZ[Authorization]
+    AuthZ --> Res[Resources / tools]
+    AuthZ --> Audit[Audit trail]
+```
 
-- 大纲偏 Azure 教学；公共 POC 多用自建/演示 IdP，与 Entra 对照未完成。
-- 本快照无生产 Entra 租户证据。
+### 最小校验
 
-## 需重新思考
+```python
+# who are you?
+assert "authn" != "authz"
+roles = {"reader": {"doc.read"}, "editor": {"doc.read", "doc.write"}}
+def may(role: str, action: str) -> bool:
+    return action in roles.get(role, set())
+assert may("reader", "doc.read") and not may("reader", "doc.write")
+```
 
-- 把「接了 OAuth」当成「MCP 已安全」会压扁 Course 04 的混淆代理教训——scope ≠ 理赔策略（[博文](https://github.com/xingaiapp/xingai-tech-blog/blob/main/posts/2026-07-13-mcp-auth-scope-is-not-policy-second-wall.md)）。
+### 故障模式（课程）
 
-## 争议
+- 把登录成功当成授权通过。
+- 把错误类型的令牌发给错误的受众。
+- 跳过 PKCE、state、nonce 或精确回调校验。
+- 只把业务策略写在提示词或 UI 可见性里。
 
-- XingAI 面向消费者应用用 Workforce Entra 还是 External ID —— 产品选型未决。
+## Known（已知）
 
-## 待证
+- 课程 10 模块 01 给出上文词汇、图示与失败关闭校验（`raw/xingai-enterprise-ai-design/courses/10-oauth-oidc-azure-identity/modules/01-iam-overview.zh.md`；公开：[模块](https://github.com/xingaiapp/xingai-enterprise-ai-design/blob/main/courses/10-oauth-oidc-azure-identity/modules/01-iam-overview.zh.md)）。
+- 可动手路径：[PKCE MCP 实验](https://github.com/xingaiapp/xingai-enterprise-ai-design/blob/main/guides/2026-07-12-mcp-oauth-pkce-lab.zh.md) · [认证深读](https://github.com/xingaiapp/xingai-enterprise-ai-design/blob/main/guides/2026-07-12-mcp-oauth-auth-deep-dive.md)。
+- 交叉：[agent-governance-and-mcp](../agent-governance-and-mcp.zh.md) · [课程 04](../../courses/04-mcp-interoperability.zh.md) · [课程 10 wiki](../../courses/10-oauth-oidc-azure-identity.zh.md) · [claims-mcp-oauth-poc](../../products/claims-mcp-oauth-poc.md)。
 
-- 是否有 XingAI 产品在生产使用 Entra External ID（需公开部署说明）。
+## Missing（缺失）
 
-## Sources
+- 课程模块保持精简——本 wiki 页无「Identity and Access Management Overview」的真实令牌追踪。
 
-- `raw/external/2026-07-16-oauth-oidc-azure-identity-api-security/content.md`
-- `raw/external/2026-07-16-oauth-oidc-azure-identity-api-security/SOURCE.md`
-- 相关 wiki：[agent-governance-and-mcp](../agent-governance-and-mcp.zh.md)、[claims-mcp-oauth-poc](../../products/claims-mcp-oauth-poc.zh.md)、[Course 04](../../courses/04-mcp-interoperability.zh.md)
+## Rethink（重思）
+
+- 协议素养须先于厂商 SDK；MSAL/Entra 映射在模块 12–21。
+
+## Debate（争议）
+
+- OAuth 2.1 / resource indicator 深度应落在本课，还是课程 04 MCP 实验。
+
+## Needs evidence（待证）
+
+- 端到端练习本模块负向测试的公开 POC 证据。
+
+## Sources（来源）
+
+- 课程：[身份与访问管理概览](https://github.com/xingaiapp/xingai-enterprise-ai-design/blob/main/courses/10-oauth-oidc-azure-identity/modules/01-iam-overview.zh.md) · [EN](https://github.com/xingaiapp/xingai-enterprise-ai-design/blob/main/courses/10-oauth-oidc-azure-identity/modules/01-iam-overview.md)
+- 快照：`raw/xingai-enterprise-ai-design/courses/10-oauth-oidc-azure-identity/modules/01-iam-overview.zh.md`
+- 实验：[OAuth 2.1 + PKCE MCP](https://github.com/xingaiapp/xingai-enterprise-ai-design/blob/main/guides/2026-07-12-mcp-oauth-pkce-lab.zh.md)

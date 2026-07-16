@@ -113,3 +113,7 @@ Created ADR-002 / tech-blog / enterprise design for skill-curriculum + ledger pa
 ## [2026-07-16] course | Course 10 OAuth/OIDC/Azure Identity
 
 Published specialization Course 10 in `xingai-enterprise-ai-design` (26 bilingual modules + hub). Added wiki course pages `wiki/courses/10-oauth-oidc-azure-identity(.zh).md`, linked from index and concept overview.
+
+## [2026-07-16] lint/ingest | oauth-oidc-azure-identity ← Course 10
+
+Rewrote `wiki/concepts/oauth-oidc-azure-identity/` (overview + 26 EN/ZH pages) from Course 10 teach blocks + epistemic critique. Snapshotted course into `raw/xingai-enterprise-ai-design/courses/10-oauth-oidc-azure-identity/`. External outline retained only as provenance. Updated course wiki Known + index blurbs.

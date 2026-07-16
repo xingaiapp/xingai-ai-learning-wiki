@@ -2,33 +2,65 @@
 
 English: [19-api-keys-and-pats.md](19-api-keys-and-pats.md)
 
-属于 [OAuth / OIDC / Azure Identity 目录](00-overview.zh.md)。
+属于 [OAuth / OIDC / Azure Identity 目录](00-overview.zh.md)。  
+**主要教学来源：** [课程 10 · 模块 19](https://github.com/xingaiapp/xingai-enterprise-ai-design/blob/main/courses/10-oauth-oidc-azure-identity/modules/19-api-keys-and-pats.zh.md) · [主页](https://github.com/xingaiapp/xingai-enterprise-ai-design/blob/main/courses/10-oauth-oidc-azure-identity/README.zh.md)
 
+## 教学要点（来自课程 10）
 
+- **是什么：** 
+- **为什么：** 
+- **谁：** 
+- **何时：** 
+- **何处：** 
+- **怎么做：** 
 
-## 已知
+### 图示
 
-- API Key 标识调用方/限流，缺完整用户授权上下文。PAT 长生命周期——优先级 MI→WIF→OAuth→PAT（§17）。
-- 设计文：第三方 MCP 的 API Key vs OAuth（[链接](https://github.com/xingaiapp/xingai-enterprise-ai-design/blob/main/articles/2026-07-15-third-party-mcp-auth-api-key-vs-oauth2.md)）。
+```mermaid
+flowchart LR
+    Key[API key / PAT] --> Secret[Shared secret risk]
+    OAuth[OAuth + PKCE] --> Consent[Consent + scopes + revocation]
+```
 
-## 缺失
+### 最小校验
 
-- 未写 PAT 泄露事件响应。
+```python
+def prefer_oauth(third_party: bool, user_delegated: bool) -> str:
+    return "oauth" if third_party or user_delegated else "key_with_controls"
+assert prefer_oauth(True, False) == "oauth"
+```
 
-## 需重新思考
+### 故障模式（课程）
 
-- 合作方 MCP 只发 API Key——覆盖优先权衡（[claims-partner](../../products/claims-partner-api-mcp-poc.zh.md)）。
+- 把登录成功当成授权通过。
+- 把错误类型的令牌发给错误的受众。
+- 跳过 PKCE、state、nonce 或精确回调校验。
+- 只把业务策略写在提示词或 UI 可见性里。
 
-## 争议
+## Known（已知）
 
-- APIM subscription key 何时可作边缘认证。
+- 课程 10 模块 19 给出上文词汇、图示与失败关闭校验（`raw/xingai-enterprise-ai-design/courses/10-oauth-oidc-azure-identity/modules/19-api-keys-and-pats.zh.md`；公开：[模块](https://github.com/xingaiapp/xingai-enterprise-ai-design/blob/main/courses/10-oauth-oidc-azure-identity/modules/19-api-keys-and-pats.zh.md)）。
+- 可动手路径：[PKCE MCP 实验](https://github.com/xingaiapp/xingai-enterprise-ai-design/blob/main/guides/2026-07-12-mcp-oauth-pkce-lab.zh.md) · [认证深读](https://github.com/xingaiapp/xingai-enterprise-ai-design/blob/main/guides/2026-07-12-mcp-oauth-auth-deep-dive.md)。
+- 交叉：[agent-governance-and-mcp](../agent-governance-and-mcp.zh.md) · [课程 04](../../courses/04-mcp-interoperability.zh.md) · [课程 10 wiki](../../courses/10-oauth-oidc-azure-identity.zh.md) · [claims-mcp-oauth-poc](../../products/claims-mcp-oauth-poc.md)。
 
-## 待证
+## Missing（缺失）
 
-- XingAI 公开复盘中的密钥泄露案例（未引）。
+- 无「API Keys and PATs」的真实 Entra 租户截图——课程把 Azure 当映射，而非必选云。
 
-## Sources
+## Rethink（重思）
 
-- `raw/external/2026-07-16-oauth-oidc-azure-identity-api-security/content.md`
-- `raw/external/2026-07-16-oauth-oidc-azure-identity-api-security/SOURCE.md`
-- 相关 wiki：[agent-governance-and-mcp](../agent-governance-and-mcp.zh.md)、[claims-mcp-oauth-poc](../../products/claims-mcp-oauth-poc.zh.md)、[Course 04](../../courses/04-mcp-interoperability.zh.md)
+- Entra 词汇必须映射回可移植 OIDC/OAuth，否则开源 POC 会漂移。
+
+## Debate（争议）
+
+- 面向公开 XingAI 仓库：Entra 优先教学还是 IdP 可移植教学。
+
+## Needs evidence（待证）
+
+- 哪些公开 XingAI 应用实际使用该 Azure 控件（若有）。
+
+## Sources（来源）
+
+- 课程：[API Key 与 PAT](https://github.com/xingaiapp/xingai-enterprise-ai-design/blob/main/courses/10-oauth-oidc-azure-identity/modules/19-api-keys-and-pats.zh.md) · [EN](https://github.com/xingaiapp/xingai-enterprise-ai-design/blob/main/courses/10-oauth-oidc-azure-identity/modules/19-api-keys-and-pats.md)
+- 快照：`raw/xingai-enterprise-ai-design/courses/10-oauth-oidc-azure-identity/modules/19-api-keys-and-pats.zh.md`
+- 实验：[OAuth 2.1 + PKCE MCP](https://github.com/xingaiapp/xingai-enterprise-ai-design/blob/main/guides/2026-07-12-mcp-oauth-pkce-lab.zh.md)

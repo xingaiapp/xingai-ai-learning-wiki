@@ -42,7 +42,7 @@ Start at [overview.md](overview.md) if you're new here. This page is the flat ca
 | [decision-ledger-pattern](concepts/decision-ledger-pattern.md) | Immutable, versioned decision records. |
 | [cache-first-llm-architecture](concepts/cache-first-llm-architecture.md) | Bound LLM cost / never one call as single point of failure. |
 | [agent-governance-and-mcp](concepts/agent-governance-and-mcp.md) | Two-wall auth: OAuth scope vs business-rule policy. |
-| [oauth-oidc-azure-identity](concepts/oauth-oidc-azure-identity/00-overview.md) | OAuth/OIDC/Azure IAM teaching catalog (26 pages) mapped to XingAI MCP walls. |
+| [oauth-oidc-azure-identity](concepts/oauth-oidc-azure-identity/00-overview.md) | Course 10 synthesis: OAuth/OIDC → Entra mapping → MCP two-wall (26 pages). |
 | [loop-engineering](concepts/loop-engineering.md) | Explicit loops with state, stop conditions, eval. |
 
 ## Syntheses (`wiki/syntheses/`)
