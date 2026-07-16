@@ -86,3 +86,26 @@ Unattributed three-panel poster (Standard RAG / AI Agent / Multi-Agent RAG + MCP
 
 
 
+
+## [2026-07-16] ingest | external: OAuth/OIDC/Azure Identity/API Security outline
+
+User-owned teaching outline (Cursor paste). Package: `raw/external/2026-07-16-oauth-oidc-azure-identity-api-security/` (`SOURCE.md` verified: yes; `content.md` digest + catalog). Wiki: 26 bilingual concept pages + hub under `wiki/concepts/oauth-oidc-azure-identity/` (00-overview … 26-complete-azure-reference-architecture). Synthesis bar: each page Known/Missing/Rethink/Debate/Needs evidence; Azure pages framed as teaching maps not XingAI production claims; cross-links to claims-mcp-oauth-poc, Course 04, agent-governance, design OAuth/PKCE articles. No UX PNG (theory track). Index EN+ZH + agent-governance EN+ZH updated.
+
+## [2026-07-16] sync | P1 tech-blog teaching slice + OAuth catalog lint
+
+`gh` org list forbidden in this environment — sync used **local public clones** only (design/pocs/engineering-system/tech-blog).
+
+- **OAuth catalog:** `wiki/concepts/oauth-oidc-azure-identity/` — 27 EN + 27 ZH; epistemic headers pass; still uncommitted from prior ingest.
+- **Design articles:** local vs raw — no missing EN article filenames.
+- **Tech blog:** raw had 9 EN posts; copied 17 priority EN+ZH teaching peers (MCP auth, PKCE, scope≠policy, Robinhood fail-closed, agent-firewall, decision ledger, Learn AI cache) → raw now 43 md files. Updated [products/xingai-tech-blog](products/xingai-tech-blog.md) · [中文](products/xingai-tech-blog.zh.md) with claims 7–9 + OAuth catalog link. Index raw note updated.
+- **Skipped:** full 75-post mirror; private-product changelog archaeology; `xingai-dot-app` P2; self-ingest.
+- **UX:** no new chrome pages this pass → no UX PNG adds.
+- **Push:** not requested.
+
+## [2026-07-16] lint | bilingual + epistemic (oauth + tech-blog page)
+
+OAuth tree epistemic section parity OK. Tech-blog product page EN+ZH rewritten with Known/Missing/Rethink/Debate/Needs evidence. No private-repo dumps introduced.
+
+## [2026-07-16] docs-pack | Engineering Communication Coach
+
+Created ADR-002 / tech-blog / enterprise design for skill-curriculum + ledger pattern (see those repos). **Skipped** wiki `products/engineering-coach` page: GitHub API 404 for the coach repo → treat as non-public for wiki dumps; public teaching stays via blog + design URLs + xingai.app catalog. Snapshotted new blog (+ design article) into `raw/`. Also pushing pending OAuth catalog + prior tech-blog teaching slice from earlier sync.

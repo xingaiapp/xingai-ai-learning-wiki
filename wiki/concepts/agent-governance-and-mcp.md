@@ -16,6 +16,9 @@ design article generalizes the same reasoning into an API-key-vs-OAuth decision 
 [claims-partner-api-mcp-poc](../products/claims-partner-api-mcp-poc.md) is the complementary
 coverage-first MCP surface (auth deferred).
 
+For the longer OAuth/OIDC/Azure teaching spine (tokens, PKCE, Entra, APIM, MCP Resource Server), see
+[OAuth / OIDC / Azure Identity catalog](oauth-oidc-azure-identity/00-overview.md).
+
 [claims-workflow-v2-poc](../products/claims-workflow-v2-poc.md) implements a
 simplified MCP data boundary today (static service token; scopes pre-named for
 a later Authorization Server) and flags prompt-injection on free-text claim

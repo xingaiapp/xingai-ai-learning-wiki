@@ -42,6 +42,7 @@ English: [index.md](index.md)
 | [decision-ledger-pattern](concepts/decision-ledger-pattern.zh.md) | 不可变、带版本的决策记录。 |
 | [cache-first-llm-architecture](concepts/cache-first-llm-architecture.zh.md) | 控制 LLM 成本 / 绝不让单次调用成为单点故障。 |
 | [agent-governance-and-mcp](concepts/agent-governance-and-mcp.zh.md) | 双墙鉴权:OAuth scope 对比业务规则 policy。 |
+| [oauth-oidc-azure-identity](concepts/oauth-oidc-azure-identity/00-overview.zh.md) | OAuth/OIDC/Azure IAM 教学目录(26 页),映射到 XingAI MCP 两墙。 |
 | [loop-engineering](concepts/loop-engineering.zh.md) | 带状态、停止条件、可评测步骤的显式 loop。 |
 
 ## 综合(`wiki/syntheses/`)
@@ -62,6 +63,6 @@ English: [index.md](index.md)
 - `xingai-enterprise-ai-design/` —— 文章、指南、评估 README、深度企业 AI README
 - `pocs/` —— 全部六个公开 POC + 仓库 ADR 001–009
 - `xingai-engineering-system/` —— 精选模式文档 + ADR-002
-- `xingai-tech-blog/posts/` —— 九篇架构类文章
-- `external/` —— 临时 URL/图片/上下文摄入包(见 `xingai-wiki-ingest`)
+- `xingai-tech-blog/posts/` —— 精选架构类文章（2026-07-16 扩容；非全站）
+- `external/` —— 临时 URL/图片/上下文摄入包(见 `xingai-wiki-ingest`),含 `2026-07-16-oauth-oidc-azure-identity-api-security/`
 - `_llm-wiki-pattern.md` —— LLM Wiki 模式文档

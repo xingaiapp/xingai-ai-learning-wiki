@@ -15,6 +15,9 @@ English: [agent-governance-and-mcp.md](agent-governance-and-mcp.md)
 这篇设计文章把同一套推理推广成 API Key vs OAuth 的决策框架。
 [claims-partner-api-mcp-poc](../products/claims-partner-api-mcp-poc.zh.md) 是互补的、覆盖面优先的 MCP 表面(鉴权延后)。
 
+更长的 OAuth/OIDC/Azure 教学脊柱(令牌、PKCE、Entra、APIM、MCP Resource Server)见
+[OAuth / OIDC / Azure Identity 目录](oauth-oidc-azure-identity/00-overview.zh.md)。
+
 [claims-workflow-v2-poc](../products/claims-workflow-v2-poc.zh.md) 今天实现的是简化版 MCP 数据边界(静态服务令牌;scope 已预命名,留给后续 Authorization Server),并在 `PRODUCTION-READINESS.md` 里标出自由文本理赔字段上的提示注入风险——不受信内容操纵 agent 决策,与第 03 课对工具描述命名的同一类失败。
 
 ## 关联

@@ -1,0 +1,72 @@
+# OAuth, OIDC, Azure Identity & API Security
+
+Chinese: [00-overview.zh.md](00-overview.zh.md)
+
+Teaching catalog ingested from a user-owned outline (`raw/external/2026-07-16-oauth-oidc-azure-identity-api-security/content.md`). Pages **critique and map** the outline onto XingAI public MCP/OAuth materials — they are not a paste of the outline.
+
+**No UX PNG** for this ingest (identity theory / Azure mapping; no product chrome attached).
+
+## How to read
+
+1. Start with [02 Authentication vs Authorization](02-authentication-vs-authorization.md) and [05 ID vs Access Token](05-id-token-vs-access-token.md).
+2. Then [06 Auth Code + PKCE](06-authorization-code-flow-pkce.md) and [10 Scope / Role / Business](10-scope-role-business-authorization.md).
+3. For agents/MCP: [22 MCP Server AuthN/AuthZ](22-mcp-server-authn-authz.md) + [agent-governance-and-mcp](../agent-governance-and-mcp.md).
+4. Treat Azure pages (12–21, 26) as **reference mapping**, not “XingAI already runs this stack.”
+
+## Catalog
+
+| # | Page |
+|---|---|
+| [01](01-iam-overview.md) | Identity and Access Management Overview |
+| [02](02-authentication-vs-authorization.md) | Authentication vs Authorization |
+| [03](03-oauth-2-fundamentals.md) | OAuth 2.0 Fundamentals |
+| [04](04-openid-connect-fundamentals.md) | OpenID Connect Fundamentals |
+| [05](05-id-token-vs-access-token.md) | ID Token vs Access Token |
+| [06](06-authorization-code-flow-pkce.md) | Authorization Code Flow with PKCE |
+| [07](07-state-nonce-and-pkce.md) | State, Nonce, and PKCE |
+| [08](08-oauth-token-types.md) | OAuth Token Types |
+| [09](09-jwt-bearer-opaque-pop.md) | JWT, Bearer, Opaque, and PoP Tokens |
+| [10](10-scope-role-business-authorization.md) | Scope, Role, and Business Authorization |
+| [11](11-oidc-discovery-and-jwks.md) | OIDC Discovery and JWKS |
+| [12](12-microsoft-entra-id-architecture.md) | Microsoft Entra ID Architecture |
+| [13](13-azure-app-registration.md) | Azure App Registration |
+| [14](14-msal-integration.md) | MSAL Integration |
+| [15](15-azure-api-management-security.md) | Azure API Management Security |
+| [16](16-managed-identity-workload-identity.md) | Managed Identity and Workload Identity |
+| [17](17-on-behalf-of-flow.md) | On-Behalf-Of Flow |
+| [18](18-session-and-cookie-security.md) | Session and Cookie Security |
+| [19](19-api-keys-and-pats.md) | API Keys and PATs |
+| [20](20-oauth-oidc-vs-saml.md) | OAuth/OIDC vs SAML |
+| [21](21-microsoft-entra-external-id.md) | Microsoft Entra External ID |
+| [22](22-mcp-server-authn-authz.md) | MCP Server Authentication and Authorization |
+| [23](23-logging-monitoring-auditing.md) | Logging, Monitoring, and Auditing |
+| [24](24-security-best-practices.md) | Security Best Practices |
+| [25](25-common-errors-troubleshooting.md) | Common Errors and Troubleshooting |
+| [26](26-complete-azure-reference-architecture.md) | Complete Azure Reference Architecture |
+
+## Known
+
+- Outline defines a coherent beginner→Azure-practice spine (§1–§24) in `raw/external/2026-07-16-oauth-oidc-azure-identity-api-security/content.md`.
+- XingAI already has runnable OAuth+PKCE+two-wall teaching via [claims-mcp-oauth-poc](../../products/claims-mcp-oauth-poc.md) and [Course 04](../../courses/04-mcp-interoperability.md).
+
+## Missing
+
+- Live Entra tenant screenshots / discovery JSON / APIM policies in this wiki.
+- Code-verified citations into POC source for every bullet (partial; product pages exist).
+
+## Rethink
+
+- Full Azure reference architecture as default for every OSS POC reduces portability.
+- “OAuth integrated” without business policy fails the two-wall standard.
+
+## Debate
+
+- Entra-first vs IdP-portable teaching stacks for XingAI public repos.
+
+## Needs evidence
+
+- Which XingAI production apps use Entra External ID, MSAL, or APIM today.
+
+## Sources
+
+- `raw/external/2026-07-16-oauth-oidc-azure-identity-api-security/content.md`, `raw/external/2026-07-16-oauth-oidc-azure-identity-api-security/SOURCE.md`

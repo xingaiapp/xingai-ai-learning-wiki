@@ -41,6 +41,7 @@ Start at [overview.md](overview.md) if you're new here. This page is the flat ca
 | [decision-ledger-pattern](concepts/decision-ledger-pattern.md) | Immutable, versioned decision records. |
 | [cache-first-llm-architecture](concepts/cache-first-llm-architecture.md) | Bound LLM cost / never one call as single point of failure. |
 | [agent-governance-and-mcp](concepts/agent-governance-and-mcp.md) | Two-wall auth: OAuth scope vs business-rule policy. |
+| [oauth-oidc-azure-identity](concepts/oauth-oidc-azure-identity/00-overview.md) | OAuth/OIDC/Azure IAM teaching catalog (26 pages) mapped to XingAI MCP walls. |
 | [loop-engineering](concepts/loop-engineering.md) | Explicit loops with state, stop conditions, eval. |
 
 ## Syntheses (`wiki/syntheses/`)
@@ -60,6 +61,6 @@ Public snapshots refreshed 2026-07-16 (full sync). Skip list: private repos, `xi
 - `xingai-enterprise-ai-design/` — articles, guides, assessments README, deep-enterprise-ai README
 - `pocs/` — all six public POCs + repo ADRs 001–009
 - `xingai-engineering-system/` — selected patterns + ADR-002
-- `xingai-tech-blog/posts/` — nine architecture posts
-- `external/` — ad-hoc URL/image/context packages (see `xingai-wiki-ingest`)
+- `xingai-tech-blog/posts/` — selected architecture posts (expanded 2026-07-16; not full blog)
+- `external/` — ad-hoc URL/image/context packages (see `xingai-wiki-ingest`), including `2026-07-16-oauth-oidc-azure-identity-api-security/`
 - `_llm-wiki-pattern.md` — LLM Wiki pattern doc

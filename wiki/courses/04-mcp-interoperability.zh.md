@@ -21,6 +21,7 @@ MCP 是受治理的能力边界,不只是一种插件格式:初始化 → 发现
 - [claims-mcp-oauth-poc](../products/claims-mcp-oauth-poc.zh.md)、
   [claims-partner-api-mcp-poc](../products/claims-partner-api-mcp-poc.zh.md)、
   [claims-workflow-v2-poc](../products/claims-workflow-v2-poc.zh.md)
+- [OAuth / OIDC / Azure Identity 目录](../concepts/oauth-oidc-azure-identity/00-overview.zh.md)
 - 虚假的"MCP vs Skills vs RAG"互斥说法:
   [mcp-vs-rag-vs-skills](../syntheses/mcp-vs-rag-vs-skills.zh.md);
   程序 vs 能力的区分见该页引用的 tech-blog 文章。
