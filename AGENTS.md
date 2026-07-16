@@ -156,7 +156,16 @@ When a new **public** raw source is added:
   `raw/` is the copy; `wiki/` is the compound.
 - **Epistemic standard (required):** Known / Missing / Rethink / Debate /
   Needs evidence — see section above. No guessing as fact.
-- Wiki pages are English-only at this stage (source repos are already bilingual).
+- **Every wiki page is bilingual: `name.md` (English) + `name.zh.md` (Chinese)**,
+  matching the source repos' own convention. Chinese is a professional
+  localization, not an abbreviated translation — same section order (including
+  Known/Missing/Rethink/Debate/Needs evidence), same code, same diagram
+  meaning, same links (pointed at the `.zh.md` sibling of whatever the
+  English page links to internally; external/`raw/` links stay as-is).
+  Every English page opens with `Chinese: [name.zh.md](name.zh.md)` and every
+  Chinese page with `English: [name.md](name.md)`. `README.md`/`AGENTS.md`/
+  `DISCLAIMER.md` follow the same rule. Write both languages in the same
+  ingest pass — don't let one lag as a follow-up.
 - Every wiki page ends with a `## Sources` section linking back to specific
   `raw/` file(s) or noting analysis over public sources actually read.
 - Claims about “what the code does” need verification notes when the POC is

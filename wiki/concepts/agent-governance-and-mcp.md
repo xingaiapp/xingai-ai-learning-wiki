@@ -25,6 +25,7 @@ decision, the same failure class Course 03 names for tool descriptions.
 - [Course 03](../courses/03-tool-use-ai-agents.md), [Course 04](../courses/04-mcp-interoperability.md), [Course 05](../courses/05-agent-runtime-multi-agent.md)
 - [Concept: Decision Ledger pattern](decision-ledger-pattern.md) — governance verdicts belong in ledger rows when you need after-the-fact proof.
 - Street “enterprise agent” posters often bury auth under Platform Foundation — contrast [Enterprise agent architecture vs XingAI](../syntheses/enterprise-agent-architecture-vs-xingai.md) (Missing: two-wall auth; Rethink: guardrails after RESPOND vs gate before ACT).
+- “MCP vs RAG vs Skills” as mutually exclusive columns — contrast [mcp-vs-rag-vs-skills](../syntheses/mcp-vs-rag-vs-skills.md) and the procedure-vs-capability blog post.
 
 ## Sources
 

@@ -45,6 +45,7 @@ Start at [overview.md](overview.md) if you're new here. This page is the flat ca
 
 | Page | One-line summary |
 |---|---|
+| [mcp-vs-rag-vs-skills](syntheses/mcp-vs-rag-vs-skills.md) | Three-column poster vs XingAI: composition over “vs”; Skills≠MCP tools. |
 | [enterprise-agent-architecture-vs-xingai](syntheses/enterprise-agent-architecture-vs-xingai.md) | Rishi enterprise-agent poster vs Courses 02–07 / claims POCs — Known gaps both ways. |
 | [layers-of-ai-vs-curriculum](syntheses/layers-of-ai-vs-curriculum.md) | Popular Classical→Agentic stack mapped onto XingAI courses — and where "autonomous" oversells. |
 | [claims-poc-family-tradeoffs](syntheses/claims-poc-family-tradeoffs.md) | Auth vs coverage vs workflow matrix across the four claims POCs (+ event-bus contrast). |

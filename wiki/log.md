@@ -51,3 +51,7 @@ Updated `xingai-wiki-ingest` and `xingai-ai-learning-wiki` skills plus `AGENTS.m
 
 User-attached Rishi reference poster (orchestration→ops). Package: `raw/external/2026-07-16-enterprise-ai-agent-architecture/`. Wiki: [syntheses/enterprise-agent-architecture-vs-xingai.md](syntheses/enterprise-agent-architecture-vs-xingai.md); linked from loop-engineering + agent-governance. `verified: partial`. Critique focus: guardrails-after-RESPOND vs gate-before-ACT; Missing two-wall auth / Decision Ledger / MCP on poster; Missing full LLMOps in public POCs.
 
+## [2026-07-16] ingest | external: MCP vs RAG vs Skills (image)
+
+Three-column marketing architecture poster. Package: `raw/external/2026-07-16-mcp-vs-rag-vs-skills/`. Wiki: [syntheses/mcp-vs-rag-vs-skills.md](syntheses/mcp-vs-rag-vs-skills.md). Grounded against `raw/xingai-tech-blog/posts/2026-06-14-cursor-skills-vs-mcp-when-to-use-which.md` (“Skills teach procedure. MCP grants capability.”). `verified: partial`. Rethink: “vs” implies false exclusivity; Skills column conflates SKILL.md with runtime tools.
+
