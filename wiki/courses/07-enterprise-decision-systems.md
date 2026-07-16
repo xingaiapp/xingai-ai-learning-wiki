@@ -2,13 +2,15 @@
 
 **Prerequisite:** [06](06-production-ai-engineering.md) · **Gate:** architecture review board defense · **Next:** [08](08-ai-leadership-cto.md)
 
-This course *is* the Decision Ledger pattern, taught as architecture: "decision computation belongs in a worker/core domain boundary; APIs transport precomputed decisions; UIs explain them; execution remains separately authorized." The immutable `Decision` dataclass in the raw source, with `api_view()` explicitly commented `# transport only; no request-time recomputation`, is the same shape as `xingai-invest-ai`'s ADR-012 decision-cache boundary (cited directly in the course's own References) and `xingai-learn`'s [ADR-003](../products/xingai-learn.md#decision-ledger).
+This course *is* the Decision Ledger pattern, taught as architecture: "decision computation belongs in a worker/core domain boundary; APIs transport precomputed decisions; UIs explain them; execution remains separately authorized." The immutable `Decision` dataclass in the raw source, with `api_view()` explicitly commented `# transport only; no request-time recomputation`, is the teaching version of the same shape the public claims POC implements as `DecisionLedger`.
+
+Course References cite a sibling-product decision-cache ADR by path; this public wiki does not ingest that private ADR.
 
 ## Connects to
 
-- [Concept: Decision Ledger pattern](../concepts/decision-ledger-pattern.md) — this course is the canonical teaching version of that concept; treat the concept page as the cross-product index and this page as the pedagogy.
-- [xingai-learn](../products/xingai-learn.md) — `DecisionRecord`/ledger adoption there is a real product instance of this course's pattern, at smaller scale (one product, not a shared platform).
-- [claims-workflow-v2-poc](../products/claims-workflow-v2-poc.md)'s `DecisionLedger` (reviewed extensively this session, MCP-client-backed) — same schema shape, reused per `xingai-engineering-system/patterns/decision-ledger-schema.md`.
+- [Concept: Decision Ledger pattern](../concepts/decision-ledger-pattern.md) — this course is the canonical teaching version; the concept page is the cross-link index.
+- [claims-workflow-v2-poc](../products/claims-workflow-v2-poc.md)'s `DecisionLedger` (MCP-client-backed) — same schema instinct in a runnable public POC.
+- Public pattern doc: [xingai-engineering-system](https://github.com/xingaiapp/xingai-engineering-system) Decision Ledger schema ("patterns, not libraries").
 
 ## Verified
 
