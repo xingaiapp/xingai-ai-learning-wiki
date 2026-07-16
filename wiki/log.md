@@ -109,3 +109,7 @@ OAuth tree epistemic section parity OK. Tech-blog product page EN+ZH rewritten w
 ## [2026-07-16] docs-pack | Engineering Communication Coach
 
 Created ADR-002 / tech-blog / enterprise design for skill-curriculum + ledger pattern (see those repos). **Skipped** wiki `products/engineering-coach` page: GitHub API 404 for the coach repo → treat as non-public for wiki dumps; public teaching stays via blog + design URLs + xingai.app catalog. Snapshotted new blog (+ design article) into `raw/`. Also pushing pending OAuth catalog + prior tech-blog teaching slice from earlier sync.
+
+## [2026-07-16] course | Course 10 OAuth/OIDC/Azure Identity
+
+Published specialization Course 10 in `xingai-enterprise-ai-design` (26 bilingual modules + hub). Added wiki course pages `wiki/courses/10-oauth-oidc-azure-identity(.zh).md`, linked from index and concept overview.

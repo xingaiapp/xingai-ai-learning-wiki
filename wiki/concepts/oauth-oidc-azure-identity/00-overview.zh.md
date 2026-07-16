@@ -4,6 +4,8 @@ English: [00-overview.md](00-overview.md)
 
 来自用户教学大纲的目录（`raw/external/2026-07-16-oauth-oidc-azure-identity-api-security/content.md`）。各页**批判并映射**到 XingAI 公共 MCP/OAuth 材料——不是大纲粘贴。
 
+**课程：** [enterprise-ai-design 课程 10](https://github.com/xingaiapp/xingai-enterprise-ai-design/blob/main/courses/10-oauth-oidc-azure-identity/README.zh.md) · [wiki 课程页](../../courses/10-oauth-oidc-azure-identity.zh.md)
+
 **本次无 UX PNG**（身份理论 / Azure 映射；未附产品界面图）。
 
 ## 阅读顺序

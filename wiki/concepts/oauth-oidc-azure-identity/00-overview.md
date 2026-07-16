@@ -4,6 +4,8 @@ Chinese: [00-overview.zh.md](00-overview.zh.md)
 
 Teaching catalog ingested from a user-owned outline (`raw/external/2026-07-16-oauth-oidc-azure-identity-api-security/content.md`). Pages **critique and map** the outline onto XingAI public MCP/OAuth materials — they are not a paste of the outline.
 
+**Course:** [Course 10 in xingai-enterprise-ai-design](https://github.com/xingaiapp/xingai-enterprise-ai-design/blob/main/courses/10-oauth-oidc-azure-identity/README.md) · [wiki course page](../../courses/10-oauth-oidc-azure-identity.md)
+
 **No UX PNG** for this ingest (identity theory / Azure mapping; no product chrome attached).
 
 ## How to read

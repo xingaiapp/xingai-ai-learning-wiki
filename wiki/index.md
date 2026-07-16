@@ -18,6 +18,7 @@ Start at [overview.md](overview.md) if you're new here. This page is the flat ca
 | [07-enterprise-decision-systems](courses/07-enterprise-decision-systems.md) | The Decision Ledger pattern, taught as architecture. |
 | [08-ai-leadership-cto](courses/08-ai-leadership-cto.md) | Portfolio judgment; score, but don't let the score decide alone. |
 | [09-ai-interview-mastery](courses/09-ai-interview-mastery.md) | AI-engineering interview loops (not general DS&A drills). |
+| [10-oauth-oidc-azure-identity](courses/10-oauth-oidc-azure-identity.md) | Specialization: OAuth/OIDC → Entra/MSAL/APIM → MCP two-wall authz. |
 
 ## Products (`wiki/products/`)
 
@@ -57,7 +58,7 @@ Start at [overview.md](overview.md) if you're new here. This page is the flat ca
 
 Public snapshots refreshed 2026-07-16 (full sync). Skip list: private repos, `xingai-ai-learning-wiki` itself, `xingai-dot-app` (P2 marketing).
 
-- `courses/` — foundation track folders 00–09 + COURSE-STANDARD + index
+- `courses/` — foundation track folders 00–09 + specialization Course 10 + COURSE-STANDARD + index
 - `xingai-enterprise-ai-design/` — articles, guides, assessments README, deep-enterprise-ai README
 - `pocs/` — all six public POCs + repo ADRs 001–009
 - `xingai-engineering-system/` — selected patterns + ADR-002

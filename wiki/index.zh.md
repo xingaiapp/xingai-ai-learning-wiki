@@ -19,6 +19,7 @@ English: [index.md](index.md)
 | [07-enterprise-decision-systems](courses/07-enterprise-decision-systems.zh.md) | 决策台账(Decision Ledger)模式,作为架构来教。 |
 | [08-ai-leadership-cto](courses/08-ai-leadership-cto.zh.md) | 组合判断力;打分,但不让分数替你做决定。 |
 | [09-ai-interview-mastery](courses/09-ai-interview-mastery.zh.md) | AI 工程面试题(不是通用数据结构与算法刷题)。 |
+| [10-oauth-oidc-azure-identity](courses/10-oauth-oidc-azure-identity.zh.md) | 专项: OAuth/OIDC → Entra/MSAL/APIM → MCP 双墙授权。 |
 
 ## 产品(`wiki/products/`)
 
@@ -59,7 +60,7 @@ English: [index.md](index.md)
 公开快照,2026-07-16(全量同步)刷新。跳过清单:私有仓库、`xingai-ai-learning-wiki`
 自身、`xingai-dot-app`。
 
-- `courses/` —— 基础赛道 00–09 文件夹 + COURSE-STANDARD + 索引
+- `courses/` —— 基础赛道 00–09 + 专项课程 10 + COURSE-STANDARD + 索引
 - `xingai-enterprise-ai-design/` —— 文章、指南、评估 README、深度企业 AI README
 - `pocs/` —— 全部六个公开 POC + 仓库 ADR 001–009
 - `xingai-engineering-system/` —— 精选模式文档 + ADR-002
