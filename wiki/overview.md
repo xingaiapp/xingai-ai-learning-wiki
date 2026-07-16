@@ -1,32 +1,42 @@
 # Overview
 
-Start here. This wiki covers the public 10-course AI-engineering curriculum
-(`courses/` from
-[xingai-enterprise-ai-design](https://github.com/xingaiapp/xingai-enterprise-ai-design))
-and the public
-[claims-workflow-v2-poc](products/claims-workflow-v2-poc.md)
-that the courses keep using as a runnable example.
+Start here. This wiki compounds public XingAI AI-engineering learning material:
+the foundation curriculum and design docs in
+[xingai-enterprise-ai-design](products/xingai-enterprise-ai-design.md),
+the runnable (and design-only) POCs in
+[xingai-enterprise-ai-pocs](https://github.com/xingaiapp/xingai-enterprise-ai-pocs),
+reusable patterns from
+[xingai-engineering-system](products/xingai-engineering-system.md),
+and selected posts from
+[xingai-tech-blog](products/xingai-tech-blog.md).
+
+Private product repos stay out. Full catalog: [index.md](index.md).
 
 ## The curriculum, in one line each
 
-00 [Foundations](courses/00-ai-foundations.md) → 01 [LLM App Engineering](courses/01-llm-application-engineering.md) → (02 [RAG](courses/02-rag-knowledge-systems.md) / 03 [Tool Use & Agents](courses/03-tool-use-ai-agents.md)) → 04 [MCP](courses/04-mcp-interoperability.md) → 05 [Agent Runtime & Multi-Agent](courses/05-agent-runtime-multi-agent.md) → 06 [Production AI Engineering](courses/06-production-ai-engineering.md) → 07 [Enterprise Decision Systems](courses/07-enterprise-decision-systems.md) → 08 [AI Leadership & CTO](courses/08-ai-leadership-cto.md) → 09 [AI Interview Mastery](courses/09-ai-interview-mastery.md) (cuts across all of them). Full list: [index.md](index.md#courses-wikicourses).
+00 [Foundations](courses/00-ai-foundations.md) → 01 [LLM App Engineering](courses/01-llm-application-engineering.md) → (02 [RAG](courses/02-rag-knowledge-systems.md) / 03 [Tool Use & Agents](courses/03-tool-use-ai-agents.md)) → 04 [MCP](courses/04-mcp-interoperability.md) → 05 [Agent Runtime & Multi-Agent](courses/05-agent-runtime-multi-agent.md) → 06 [Production AI Engineering](courses/06-production-ai-engineering.md) → 07 [Enterprise Decision Systems](courses/07-enterprise-decision-systems.md) → 08 [AI Leadership & CTO](courses/08-ai-leadership-cto.md) → 09 [AI Interview Mastery](courses/09-ai-interview-mastery.md).
 
-## The ideas that hold the whole thing together
+Advanced continuation (index snapshotted, bodies not fully ingested yet): [deep-enterprise-ai](https://github.com/xingaiapp/xingai-enterprise-ai-design/tree/main/deep-enterprise-ai).
 
-1. **[5W+How framework](concepts/5w-how-framework.md)** — how every course is structured.
-2. **[Decision Ledger pattern](concepts/decision-ledger-pattern.md)** — Course 07's core teaching; the claims POC implements a ledger-shaped audit trail.
-3. **[Cache / fallback discipline](concepts/cache-first-llm-architecture.md)** — bound LLM cost and never let one model call be a single point of failure.
-4. **[Agent governance and MCP](concepts/agent-governance-and-mcp.md)** — OAuth scope vs independent business-rule policy (two walls).
+## Ideas that hold the whole thing together
 
-## What this wiki adds beyond the raw sources
+1. **[5W+How](concepts/5w-how-framework.md)** — how every course is structured.
+2. **[Decision Ledger](concepts/decision-ledger-pattern.md)** — Course 07 + claims POC + engineering-system schema.
+3. **[Cache / fallback](concepts/cache-first-llm-architecture.md)** — bound cost; never one LLM as the only path.
+4. **[Agent governance and MCP](concepts/agent-governance-and-mcp.md)** — two walls (scope vs policy); oauth POC vs coverage POC.
+5. **[Loop engineering](concepts/loop-engineering.md)** — explicit state and stop conditions across articles, patterns, and POCs.
 
-Not a copy of already-good course READMEs. The value is cross-linking:
+## What this wiki adds
 
-- Where the same pattern shows up in Course 07 teaching *and* the claims POC.
-- [What the 2026-07-16 courses review actually checked](syntheses/review-findings-2026-07-16.md).
+`raw/` is the snapshot. `wiki/` must answer questions a single README cannot:
 
-Private product repos are intentionally out of scope — see README / AGENTS.md.
+- Auth-vs-coverage vs workflow — [Claims POC family](syntheses/claims-poc-family-tradeoffs.md)
+- Where Course 04's confused-deputy list becomes oauth wall #1/#2 *and* partner-api's "auth deferred"
+- Where Course 05's checkpointing caveat matches workflow-v2's fresh-graph-per-call choice
+- Pattern-pack names (`decision-ledger-schema`) vs POC field names (`DecisionLedger`, SQLite traces)
+
+If a page is just a shortened README or a file list, it fails the synthesis bar in `AGENTS.md` — rewrite it.
 
 ## Log
 
-See [log.md](log.md) for the ingest/query/lint timeline.
+See [log.md](log.md).

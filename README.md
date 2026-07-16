@@ -5,50 +5,59 @@ instead of re-deriving answers from raw documents on every question, an LLM
 agent incrementally builds and maintains a persistent, cross-referenced wiki
 that compounds over time.
 
-**Domain:** public XingAI AI-engineering learning material — mainly the
-10-course curriculum in
-[`xingai-enterprise-ai-design`](https://github.com/xingaiapp/xingai-enterprise-ai-design)
-and the runnable
-[`claims-workflow-v2-poc`](https://github.com/xingaiapp/xingai-enterprise-ai-pocs)
-that the courses keep pointing at. Seeded 2026-07-16; scrubbed the same day
-to keep **only public-repo sources** in this public wiki.
+**Domain:** public XingAI AI-engineering learning material — curriculum and
+design docs in
+[`xingai-enterprise-ai-design`](https://github.com/xingaiapp/xingai-enterprise-ai-design),
+POCs in
+[`xingai-enterprise-ai-pocs`](https://github.com/xingaiapp/xingai-enterprise-ai-pocs),
+patterns in
+[`xingai-engineering-system`](https://github.com/xingaiapp/xingai-engineering-system),
+and selected
+[`xingai-tech-blog`](https://github.com/xingaiapp/xingai-tech-blog) posts.
+
+`raw/` holds snapshots. `wiki/` is a knowledge base: **Known / Missing /
+Rethink / Debate / Needs evidence** — synthesis and critique, not shortened
+READMEs and not guesses. See `AGENTS.md`.
+
 
 ## Public-sources-only rule
 
 This repo is public. Do **not** ingest, copy, or summarize material from
-private XingAI repositories (product apps, internal ADRs, Opportunity Radar
-outputs, unpublished POCs, etc.). Prefer absolute GitHub links to public
-repos over local sibling paths.
+private XingAI repositories. Prefer absolute GitHub links over local sibling
+paths. Confirm visibility with `gh` before any new ingest.
 
 ## Layout
 
 ```
-raw/            immutable snapshot of public source docs (copied 2026-07-16)
-  courses/               10 course READMEs (EN+ZH) + course standard + index
-  claims-workflow-v2-poc/  README, PRODUCTION-READINESS.md, architecture.md, ADR-008, ADR-009
-  _llm-wiki-pattern.md   the pattern doc itself, for reference
-wiki/           everything below this line is LLM-written, human-read
-  index.md      start here — content catalog
-  log.md        chronological ingest/query/lint record
-  overview.md   top-level synthesis
-  courses/      one entity page per course
-  products/     public POCs (claims-workflow-v2-poc)
-  concepts/     cross-cutting patterns (5W+How, Decision Ledger, cache/fallback, MCP governance)
-  syntheses/    durable answers filed back instead of left in chat
-AGENTS.md       the schema — read this before ingesting, querying, or linting
+raw/
+  courses/                         foundation track 00–09 (folder READMEs)
+  xingai-enterprise-ai-design/     articles, guides, assessments, deep-enterprise-ai index
+  pocs/                            all public POCs + docs/adr 001–009
+  xingai-engineering-system/       selected patterns + ADR-002
+  xingai-tech-blog/posts/          selected architecture posts
+  _llm-wiki-pattern.md
+wiki/                              LLM-written catalog (see wiki/index.md)
+AGENTS.md                          schema for ingest / query / lint
 ```
 
 ## How to use this
 
-Open `wiki/index.md` first. Point any LLM agent (Claude Code, Codex, etc.)
-at this repo with `AGENTS.md` as the schema and ask it to ingest a new
-**public** source, answer a question, or run a lint pass.
+Open `wiki/index.md` first. Point any LLM agent at this repo with `AGENTS.md`
+as the schema.
+
+**Cursor skills (global):**
+
+- `xingai-ai-learning-wiki` — scan/sync public `xingaiapp` GitHub repos
+- `xingai-wiki-ingest` — ingest **URL / image / pasted context / local file**
+  into `raw/external/` then update `wiki/` (synthesis, not copy-paste)
+
+Trigger with those names or `/xingai-ai-learning-wiki` / `/xingai-wiki-ingest`.
 
 ## Status
 
-Trial / v0. Raw sources are a one-time snapshot from public repos — re-ingest
-by hand if those change. If this proves useful, the next step is a small
-script that re-syncs `raw/` from public remotes only.
+Trial / v0. Full public-repo sync last run **2026-07-16**. Skipped:
+`xingai-ai-learning-wiki` (self), `xingai-dot-app` (P2 marketing). Deep
+enterprise course bodies not fully snapshotted yet (README index only).
 
 ## Disclaimer
 

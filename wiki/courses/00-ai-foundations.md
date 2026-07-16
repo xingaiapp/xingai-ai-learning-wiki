@@ -11,6 +11,7 @@ The system-view diagram (`User → Tokenizer → Transformer → Decoder → Pro
 - [01 LLM Application Engineering](01-llm-application-engineering.md) — takes "the model is probabilistic" and turns it into "therefore validate its output with a schema."
 - [Concept: 5W+How framework](../concepts/5w-how-framework.md) — this course is where the framework itself is first taught in miniature (What/Why/Who/When/Where/How as headers).
 - [09 AI Interview Mastery](09-ai-interview-mastery.md) — the beginner interview track ("What is an embedding?") starts from exactly this course's vocabulary.
+- External pedagogy aid: [Layers of AI vs curriculum](../syntheses/layers-of-ai-vs-curriculum.md) — street "Classical→Agentic" stack mapped onto this course path (and where the poster oversells autonomy).
 
 ## Verified
 
@@ -18,4 +19,4 @@ Code example checked by hand: `cosine([1,0],[1,0]) == 1.0` and `cosine([1,0],[0,
 
 ## Sources
 
-`raw/courses/00-ai-foundations.md`
+`raw/courses/00-ai-foundations/README.md`; external stack graphic via `raw/external/2026-07-16-layers-of-ai/`

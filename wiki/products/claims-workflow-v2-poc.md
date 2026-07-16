@@ -4,7 +4,7 @@
 
 A multi-agent insurance-claims pipeline built to prove three fixes to a popular (but flawed) claims-automation infographic: fraud detection split into pre-assessment Triage and post-assessment Scoring agents, a Case Resolution Router that resumes at a specific stage instead of restarting from intake, and a Decision-Ledger-shaped compliance audit trail every stage writes to. Deepened across three phases into a real MCP data-access boundary (Phase 1), LLM-backed agents with a dependency-light RAG layer (Phase 2), and a LangGraph supervisor (Phase 3).
 
-This is the main public runnable cross-reference in this wiki — nearly every course connects to some piece of it. See each course page's "Connects to" section rather than duplicating the mapping here.
+This is the main public runnable cross-reference in this wiki — nearly every course connects to some piece of it. For how it relates to the oauth / partner-api / RAG siblings (not "v2 of the same demo"), see [Claims POC family](../syntheses/claims-poc-family-tradeoffs.md).
 
 ## The three original fixes
 
@@ -28,8 +28,8 @@ Organized by four lenses: AI Agent layer (prompt-injection risk on the free-text
 
 - [Concept: Decision Ledger pattern](../concepts/decision-ledger-pattern.md), [Concept: Cache / fallback LLM discipline](../concepts/cache-first-llm-architecture.md), [Concept: Agent governance and MCP](../concepts/agent-governance-and-mcp.md)
 - [Course 05](../courses/05-agent-runtime-multi-agent.md) (LangGraph, state machines), [Course 06](../courses/06-production-ai-engineering.md) (production-readiness gap analysis), [Course 07](../courses/07-enterprise-decision-systems.md) (Decision Ledger), [Course 04](../courses/04-mcp-interoperability.md) (the MCP server itself)
-- Sibling public POC: [`claims-mcp-oauth-poc`](https://github.com/xingaiapp/xingai-enterprise-ai-pocs) — real OAuth 2.1 Authorization Server this POC's ADR-009 Phase 4 plans to wire in front of `mcp_server/`; not yet ingested into this wiki.
+- Sibling public POCs: [claims-mcp-oauth-poc](claims-mcp-oauth-poc.md) (OAuth Phase 4 target), [claims-multiagent-rag-poc](claims-multiagent-rag-poc.md), [claims-partner-api-mcp-poc](claims-partner-api-mcp-poc.md)
 
 ## Sources
 
-`raw/claims-workflow-v2-poc/README.md`, `PRODUCTION-READINESS.md`, `architecture.md`, `docs/adr/008-claims-workflow-v2-poc.md`, `docs/adr/009-claims-workflow-v2-mcp-multiagent.md`
+`raw/pocs/claims-workflow-v2-poc/README.md`, `PRODUCTION-READINESS.md`, `architecture.md`; `raw/pocs/docs/adr/008-claims-workflow-v2-poc.md`, `009-claims-workflow-v2-mcp-multiagent.md`

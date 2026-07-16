@@ -8,8 +8,8 @@ This course's honest caveat about checkpointing ("more agents increase nondeterm
 
 ## Connects to
 
-- [Concept: Decision Ledger pattern](../concepts/decision-ledger-pattern.md) — "traces and replay" here is the same audit requirement the Decision Ledger schema satisfies across products.
-- [claims-workflow-v2-poc](../products/claims-workflow-v2-poc.md)'s `graph/supervisor_graph.py` (LangGraph, reviewed this session) — a working, deliberately-scoped-down instance of this course's durable-execution material.
+- [Concept: Decision Ledger pattern](../concepts/decision-ledger-pattern.md), [Concept: Loop engineering](../concepts/loop-engineering.md)
+- [multi-agent-lab](../products/multi-agent-lab.md), [claims-multiagent-rag-poc](../products/claims-multiagent-rag-poc.md), [claims-workflow-v2-poc](../products/claims-workflow-v2-poc.md)
 
 ## Verified
 
@@ -17,4 +17,4 @@ ZH sibling ingested 2026-07-16: Python code byte-identical, heading count matche
 
 ## Sources
 
-`raw/courses/05-agent-runtime-multi-agent.md`
+`raw/courses/05-agent-runtime-multi-agent/README.md`

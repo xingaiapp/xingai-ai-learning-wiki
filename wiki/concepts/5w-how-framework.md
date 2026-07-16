@@ -11,4 +11,4 @@ This is the same framework this session used independently (before discovering i
 
 ## Sources
 
-`raw/courses/_COURSE-STANDARD.md`
+`raw/courses/COURSE-STANDARD.md`

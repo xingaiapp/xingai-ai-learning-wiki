@@ -16,4 +16,4 @@ This course teaches *AI-engineering-specific* interview loops (ML depth, AI syst
 
 ## Sources
 
-`raw/courses/09-ai-interview-mastery.md`
+`raw/courses/09-ai-interview-mastery/README.md`

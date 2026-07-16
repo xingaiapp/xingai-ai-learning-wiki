@@ -6,7 +6,8 @@ An immutable record of *what was decided, on what evidence, under what policy ve
 |---|---|
 | [Course 07](../courses/07-enterprise-decision-systems.md) | Canonical teaching version — `Decision` frozen dataclass, `api_view()` explicitly comments "transport only; no request-time recomputation." |
 | [claims-workflow-v2-poc](../products/claims-workflow-v2-poc.md) `DecisionLedger` | MCP-client-backed (Phase 1), `model_version` pinned per row so fairness audits are possible (the POC's `PRODUCTION-READINESS.md` notes the audit *process* itself is still a gap — the data shape exists). |
-| Public engineering patterns | [xingai-engineering-system](https://github.com/xingaiapp/xingai-engineering-system) documents a shared Decision Ledger schema as "patterns, not libraries." |
+| [xingai-engineering-system](../products/xingai-engineering-system.md) | Shared `Decision` schema — patterns, not libraries (`raw/.../decision-ledger-schema.md`). |
+| [multi-agent-lab](../products/multi-agent-lab.md) / [claims-multiagent-rag-poc](../products/claims-multiagent-rag-poc.md) | SQLite traces / audit steps — ledger instinct before a full schema. |
 
 Course 07's References also cite a sibling-product decision-cache ADR by path; this wiki does not ingest that private ADR — treat the course citation as a pointer only.
 
@@ -20,4 +21,4 @@ Versioning a `model_version` string is not the same as a model change-management
 
 ## Sources
 
-`raw/courses/07-enterprise-decision-systems.md`, `raw/claims-workflow-v2-poc/` (README + PRODUCTION-READINESS + ADR-008/009)
+`raw/courses/07-enterprise-decision-systems/README.md`, `raw/pocs/claims-workflow-v2-poc/`, `raw/xingai-engineering-system/patterns/decision-ledger-schema.md`, `raw/pocs/docs/adr/008-claims-workflow-v2-poc.md`

@@ -19,4 +19,4 @@ ZH sibling ingested 2026-07-16: Python code block byte-identical, heading count 
 
 ## Sources
 
-`raw/courses/01-llm-application-engineering.md`
+`raw/courses/01-llm-application-engineering/README.md`

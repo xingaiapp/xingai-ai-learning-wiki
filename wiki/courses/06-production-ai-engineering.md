@@ -17,4 +17,4 @@ ZH sibling ingested 2026-07-16: Python code byte-identical, heading count matche
 
 ## Sources
 
-`raw/courses/06-production-ai-engineering.md`
+`raw/courses/06-production-ai-engineering/README.md`

@@ -18,4 +18,4 @@ ZH sibling ingested 2026-07-16: Python code blocks differ by exactly one thing â
 
 ## Sources
 
-`raw/courses/07-enterprise-decision-systems.md`
+`raw/courses/07-enterprise-decision-systems/README.md`

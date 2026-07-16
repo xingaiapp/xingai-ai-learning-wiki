@@ -28,22 +28,69 @@ check `wiki/index.md` for what's actually in.
 
 This repository is public. Agents must:
 
-- Ingest only from public XingAI GitHub repos (or other public URLs).
+- Ingest only from public XingAI GitHub repos, **other public URLs**, or
+  **user-provided** context/images/files explicitly meant for this wiki.
 - Never copy, paraphrase, or dump private-repo READMEs, ADRs, PRDs, portfolios,
   Decision Cards, Content Packs, or internal product architecture into `raw/`
   or `wiki/`.
-- Prefer absolute `https://github.com/xingaiapp/...` links over workspace-relative
-  sibling paths.
+- Prefer absolute `https://github.com/xingaiapp/...` (or other canonical) links
+  over workspace-relative sibling paths.
 - If a public course *mentions* a private sibling product by name, you may note
   that the course cites it — do not pull that private repo's internals into this wiki.
 
-When unsure whether a source is public, check GitHub visibility before ingesting.
+When unsure whether a source is public, check GitHub visibility (repos) or ask
+the user to paste an excerpt (URLs that won't fetch).
+
+### Ad-hoc external sources
+
+Non-repo inputs (URL, image, paste, local file) live under:
+
+```text
+raw/external/YYYY-MM-DD-<slug>/
+  SOURCE.md     # manifest (types, canonical_url, verified)
+  content.md    # fetched or pasted text
+  notes.md      # optional image/agent notes
+  assets/       # optional
+```
+
+Cursor skills: **`xingai-ai-learning-wiki`** (public repo sync) and
+**`xingai-wiki-ingest`** (URL / image / context). Both must pass the
+**synthesis bar** and the **epistemic standard** below.
+
+## Epistemic standard (required)
+
+This wiki aims to be a **knowledge base**, not a brochure and not a guess log.
+
+Every new or materially updated `wiki/` page must make these explicit (as
+headings or clearly labeled blocks):
+
+| Block | Required content |
+|---|---|
+| **Known** | Only claims grounded in snapshotted `raw/`, a fetched public URL, or a check you actually ran. Cite the path/URL. |
+| **Missing** | What the source omits that still matters here (auth, eval, ledger *process*, ops, cost, who approves, failure modes). |
+| **Rethink** | Assumptions that look wrong or oversimplified next to other public sources (course vs POC, sibling POCs, pattern vs demo). |
+| **Debate** | Open design forks — present both sides; do not “win” the argument without an ADR or verified code. |
+| **Needs evidence** | Questions that would change the page. Leave them open. Do **not** answer by speculation. |
+
+**Fail / rewrite before commit if:**
+
+- the page mostly repeats what the source already says,
+- gaps are filled with plausible-sounding invention,
+- image or marketing copy is treated as implementation truth,
+- citations point at files you did not read this session.
+
+Confidence language: prefer `verified` / `partial` / `unknown` over “probably.”
+
+Skills carry the same checklist:
+`~/.cursor/skills/xingai-wiki-ingest/references/epistemic-checklist.md`.
+
 
 ## Layers
 
-- **`raw/`** — immutable snapshot of public source documents. These are NOT the
-  living originals — prefer the public GitHub repos for current truth. If
-  sources change, re-ingest rather than hand-editing `raw/`.
+- **`raw/`** — immutable snapshot of public source documents. Layout mirrors
+  origin repos (`raw/courses/`, `raw/pocs/`, `raw/xingai-enterprise-ai-design/`,
+  etc.). These are NOT the living originals — prefer the public GitHub repos
+  for current truth. If sources change, re-ingest rather than hand-editing `raw/`.
 - **`wiki/`** — everything in here is LLM-written and LLM-maintained. Humans
   read; the agent writes. Structure:
   - `wiki/index.md` — content catalog. Read this first when answering a query.
@@ -85,7 +132,10 @@ When a new **public** raw source is added:
 3. Check for orphan pages.
 4. Check for concepts mentioned in 2+ pages that lack a `wiki/concepts/` page.
 5. Check that no page reintroduced private-repo internals.
-6. Record findings as a `lint` entry in `log.md`; file anything substantial
+6. **Critique audit:** pages that only describe “what it is” with no Missing /
+   Rethink / Debate / Needs evidence → rewrite.
+7. **Guess audit:** confident claims without citations → demote or delete.
+8. Record findings as a `lint` entry in `log.md`; file anything substantial
    as a `wiki/syntheses/` page.
 
 ## Log format
@@ -100,10 +150,16 @@ When a new **public** raw source is added:
 
 ## Conventions
 
+- **Synthesis bar (required):** `wiki/` pages must add value raw does not.
+  Fail if the page is a shortened README, file list, or heading restatement.
+  Prefer contrasts, course↔POC maps, and questions one repo grep cannot answer.
+  `raw/` is the copy; `wiki/` is the compound.
+- **Epistemic standard (required):** Known / Missing / Rethink / Debate /
+  Needs evidence — see section above. No guessing as fact.
 - Wiki pages are English-only at this stage (source repos are already bilingual).
 - Every wiki page ends with a `## Sources` section linking back to specific
-  `raw/` file(s) or noting chat analysis over public sources.
-- Every factual claim about "what the code actually does" should be marked
-  verified or not — don't trust prose alone when the public POC is checkable.
+  `raw/` file(s) or noting analysis over public sources actually read.
+- Claims about “what the code does” need verification notes when the POC is
+  checkable; otherwise mark Needs evidence.
 - Scale note: at this size, `index.md` is enough navigation. Revisit past ~100
   sources (per the pattern doc).

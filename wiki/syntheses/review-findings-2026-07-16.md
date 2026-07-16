@@ -20,4 +20,4 @@ No curriculum structure or sample-code defects that required a fix in the course
 
 ## Sources
 
-This session's chat history (2026-07-16) over public `xingai-enterprise-ai-design/courses/` and public POC docs; see `raw/courses/` and `raw/claims-workflow-v2-poc/`.
+This session's chat history (2026-07-16) over public `xingai-enterprise-ai-design/courses/` and public POC docs; see `raw/courses/` and `raw/pocs/claims-workflow-v2-poc/`.

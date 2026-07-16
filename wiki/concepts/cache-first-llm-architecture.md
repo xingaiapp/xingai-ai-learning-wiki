@@ -16,4 +16,4 @@ Two related goals that show up across courses and the public claims POC:
 
 ## Sources
 
-`raw/courses/01-llm-application-engineering.md`, `raw/courses/06-production-ai-engineering.md`, `raw/claims-workflow-v2-poc/` (architecture + ADR-009 Phase 2)
+`raw/courses/01-llm-application-engineering/README.md`, `raw/courses/06-production-ai-engineering/README.md`, `raw/pocs/claims-workflow-v2-poc/`, `raw/xingai-engineering-system/patterns/cache-first-before-llm.md`, `raw/xingai-engineering-system/patterns/worker-cache-boundary.md`
