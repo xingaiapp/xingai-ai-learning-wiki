@@ -1,5 +1,7 @@
 # Product: claims-workflow-v2-poc
 
+Chinese: [claims-workflow-v2-poc.zh.md](claims-workflow-v2-poc.zh.md)
+
 **Repo:** [xingai-enterprise-ai-pocs/pocs/claims-workflow-v2-poc](https://github.com/xingaiapp/xingai-enterprise-ai-pocs) · **Status (2026-07-16):** Runnable · Phase 1+2+3 · 40 tests passing
 
 A multi-agent insurance-claims pipeline built to prove three fixes to a popular (but flawed) claims-automation infographic: fraud detection split into pre-assessment Triage and post-assessment Scoring agents, a Case Resolution Router that resumes at a specific stage instead of restarting from intake, and a Decision-Ledger-shaped compliance audit trail every stage writes to. Deepened across three phases into a real MCP data-access boundary (Phase 1), LLM-backed agents with a dependency-light RAG layer (Phase 2), and a LangGraph supervisor (Phase 3).

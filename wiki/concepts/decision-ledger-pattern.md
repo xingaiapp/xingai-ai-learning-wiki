@@ -1,5 +1,7 @@
 # Concept: The Decision Ledger Pattern
 
+Chinese: [decision-ledger-pattern.zh.md](decision-ledger-pattern.zh.md)
+
 An immutable record of *what was decided, on what evidence, under what policy version, by what model* — computed in a worker/core boundary, transported read-only through APIs, never recomputed in a UI or request handler.
 
 | Where | Shape |

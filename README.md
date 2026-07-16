@@ -1,5 +1,7 @@
 # XingAI AI-Learning Wiki
 
+Chinese: [README.zh.md](README.zh.md)
+
 A trial run of Andrej Karpathy's [LLM Wiki pattern](raw/_llm-wiki-pattern.md):
 instead of re-deriving answers from raw documents on every question, an LLM
 agent incrementally builds and maintains a persistent, cross-referenced wiki
@@ -17,7 +19,8 @@ and selected
 
 `raw/` holds snapshots. `wiki/` is a knowledge base: **Known / Missing /
 Rethink / Debate / Needs evidence** — synthesis and critique, not shortened
-READMEs and not guesses. See `AGENTS.md`.
+READMEs and not guesses. Content pages are **bilingual** (`name.md` +
+`name.zh.md`). See `AGENTS.md`.
 
 
 ## Public-sources-only rule
@@ -55,9 +58,10 @@ Trigger with those names or `/xingai-ai-learning-wiki` / `/xingai-wiki-ingest`.
 
 ## Status
 
-Trial / v0. Full public-repo sync last run **2026-07-16**. Skipped:
-`xingai-ai-learning-wiki` (self), `xingai-dot-app` (P2 marketing). Deep
-enterprise course bodies not fully snapshotted yet (README index only).
+Trial / v0. Full public-repo sync last run **2026-07-16**. Wiki content pages
+are bilingual (`wiki/**/*.md` + `*.zh.md`, 31/31 pairs) as of the same day.
+Skipped: `xingai-ai-learning-wiki` (self), `xingai-dot-app` (P2 marketing).
+Deep enterprise course bodies not fully snapshotted yet (README index only).
 
 ## Disclaimer
 

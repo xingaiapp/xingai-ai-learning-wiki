@@ -1,5 +1,7 @@
 # Synthesis: Enterprise agent architecture poster vs XingAI public map
 
+Chinese: [enterprise-agent-architecture-vs-xingai.zh.md](enterprise-agent-architecture-vs-xingai.zh.md)
+
 Reference-architecture infographic (user-ingested 2026-07-16, credit on image: Rishi): Inputs → Plan/Reason/Act/Respond orchestrator + tools → Context/Memory → Response guardrails → LLMOps → Platform foundation.
 
 Asset: `raw/external/2026-07-16-enterprise-ai-agent-architecture/`.

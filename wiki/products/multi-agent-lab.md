@@ -1,5 +1,7 @@
 # Product: multi-agent-lab
 
+Chinese: [multi-agent-lab.zh.md](multi-agent-lab.zh.md)
+
 **Repo:** [xingai-enterprise-ai-pocs](https://github.com/xingaiapp/xingai-enterprise-ai-pocs) · **Status:** Runnable · Phase 1 MVP
 
 Orchestrator + specialist agents (Research, Product, Tech, Critic), simulated MCP tools, SQLite execution traces, demo metrics. Almost no insurance domain — on purpose.

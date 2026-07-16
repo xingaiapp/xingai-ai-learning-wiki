@@ -1,5 +1,7 @@
 # Overview
 
+Chinese: [overview.zh.md](overview.zh.md)
+
 Start here. This wiki compounds public XingAI AI-engineering learning material:
 the foundation curriculum and design docs in
 [xingai-enterprise-ai-design](products/xingai-enterprise-ai-design.md),

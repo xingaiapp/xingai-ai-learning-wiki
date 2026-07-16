@@ -1,5 +1,7 @@
 # Concept: Cache / Fallback LLM Discipline
 
+Chinese: [cache-first-llm-architecture.zh.md](cache-first-llm-architecture.zh.md)
+
 Two related goals that show up across courses and the public claims POC:
 
 1. **Bound LLM cost** — don't pay for a model call on every identical or near-identical request when caching or reuse is possible ([Course 01](../courses/01-llm-application-engineering.md) caching module; [Course 06](../courses/06-production-ai-engineering.md) cost-per-task release gates).

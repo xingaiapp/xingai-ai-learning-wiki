@@ -55,3 +55,11 @@ User-attached Rishi reference poster (orchestration→ops). Package: `raw/extern
 
 Three-column marketing architecture poster. Package: `raw/external/2026-07-16-mcp-vs-rag-vs-skills/`. Wiki: [syntheses/mcp-vs-rag-vs-skills.md](syntheses/mcp-vs-rag-vs-skills.md). Grounded against `raw/xingai-tech-blog/posts/2026-06-14-cursor-skills-vs-mcp-when-to-use-which.md` (“Skills teach procedure. MCP grants capability.”). `verified: partial`. Rethink: “vs” implies false exclusivity; Skills column conflates SKILL.md with runtime tools.
 
+## [2026-07-16] lint | Bilingual wiki rule in skills + AGENTS
+
+`xingai-wiki-ingest` and `xingai-ai-learning-wiki` now require EN+中文 (`name.md` + `name.zh.md`) on every new/updated wiki content page in the same ingest pass. Lint: bilingual audit. `wiki/log.md` remains English-only. Existing EN-only pages are debt — backfill on next touch or dedicated pass.
+
+## [2026-07-16] lint | Bilingual backfill (all wiki content)
+
+Dedicated pass: every `wiki/` content page now has a `.zh.md` peer (31/31), plus root `README.zh.md` / `AGENTS.zh.md` / `DISCLAIMER.zh.md`. EN pages carry `Chinese:` headers; ZH pages carry `English:`. Internal links in ZH point at `.zh.md` siblings. Syntheses + products + remaining concepts translated in this pass; courses/index/overview had already been started earlier the same day. `wiki/log.md` stays EN-only.
+

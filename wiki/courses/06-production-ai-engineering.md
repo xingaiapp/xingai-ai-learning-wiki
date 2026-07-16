@@ -1,5 +1,7 @@
 # Course 06: Production AI Engineering
 
+Chinese: [06-production-ai-engineering.zh.md](06-production-ai-engineering.zh.md)
+
 **Prerequisite:** [05](05-agent-runtime-multi-agent.md) · **Gate:** production-readiness review · **Next:** [07](07-enterprise-decision-systems.md)
 
 "A demo proves possibility; production evidence proves acceptable behavior under realistic load and failure." The release-gate code (`task_success >= 0.90`, `unsafe_action_rate == 0`, latency and cost thresholds) is a formalized version of exactly the kind of gap analysis this session wrote by hand in `claims-workflow-v2-poc/PRODUCTION-READINESS.md` — that document is, in effect, an unscored instance of this course's "production-readiness review" gate, organized by lens (AI agent / MCP / automation / regulatory) instead of by SLO metric.

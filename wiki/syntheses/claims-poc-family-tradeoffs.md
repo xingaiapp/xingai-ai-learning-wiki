@@ -1,5 +1,7 @@
 # Synthesis: Claims POC Family — Auth vs Coverage vs Workflow
 
+Chinese: [claims-poc-family-tradeoffs.zh.md](claims-poc-family-tradeoffs.zh.md)
+
 Four public POCs sit in one repo and look like "more claims demos." They aren't. Read as a deliberate matrix:
 
 | Axis | Narrow tools + real auth | Broad tools + deferred auth | Multi-agent workflow + audit |

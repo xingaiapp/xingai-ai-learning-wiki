@@ -1,5 +1,7 @@
 # Course 01: LLM Application Engineering
 
+Chinese: [01-llm-application-engineering.zh.md](01-llm-application-engineering.zh.md)
+
 **Prerequisite:** [00 AI Foundations](00-ai-foundations.md) · **Gate:** typed, tested application · **Next:** [02](02-rag-knowledge-systems.md), [03](03-tool-use-ai-agents.md)
 
 The pivot from "understand models" to "build with them": an LLM application is conventional software around a probabilistic-model boundary. The load-bearing idea is placing model calls behind a service boundary and validating output with a typed schema (`parse_triage` in the raw source) instead of trusting free text — the same discipline [claims-workflow-v2-poc](../products/claims-workflow-v2-poc.md) applies with its heuristic/LLM dual-path fallback.

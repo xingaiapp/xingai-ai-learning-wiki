@@ -1,5 +1,7 @@
 # Course 09: AI Interview Mastery
 
+Chinese: [09-ai-interview-mastery.zh.md](09-ai-interview-mastery.zh.md)
+
 **Prerequisite:** target-role courses · **Gate:** two calibrated mock loops
 
 Cross-cutting interview prep spanning coding, ML/LLM understanding, experimentation, debugging, AI system design, product judgment, security, leadership, and communication — one track per seniority level, explicitly warning against "memorized answers to hide missing implementation skill."

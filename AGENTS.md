@@ -1,5 +1,7 @@
 # AGENTS.md — Wiki Schema and Conventions
 
+Chinese: [AGENTS.zh.md](AGENTS.zh.md)
+
 This file tells any LLM agent working in this repo how the wiki is structured
 and what workflows to follow. Read this before ingesting a source, answering
 a query, or running a lint pass. Pattern source: Andrej Karpathy's
@@ -55,7 +57,7 @@ raw/external/YYYY-MM-DD-<slug>/
 
 Cursor skills: **`xingai-ai-learning-wiki`** (public repo sync) and
 **`xingai-wiki-ingest`** (URL / image / context). Both must pass the
-**synthesis bar** and the **epistemic standard** below.
+**synthesis bar**, **epistemic standard**, and **bilingual (EN+中文)** rule.
 
 ## Epistemic standard (required)
 
@@ -111,10 +113,11 @@ When a new **public** raw source is added:
 
 1. Confirm the source repo/URL is public.
 2. Copy into `raw/` at a path mirroring its origin repo.
-3. Update or create the relevant `wiki/courses/`, `wiki/products/`, or
-   `wiki/concepts/` page(s). A single source can touch several pages.
-4. Update `wiki/index.md`.
-5. Append one entry to `wiki/log.md` using the format below.
+3. Update or create the relevant `wiki/courses/`, `wiki/products/`,
+   `wiki/concepts/`, or `wiki/syntheses/` page(s) — **both** `name.md` and
+   `name.zh.md` in the same pass.
+4. Update `wiki/index.md` **and** `wiki/index.zh.md` if the catalog changed.
+5. Append one entry to `wiki/log.md` (English ops log; no `.zh.md` required).
 
 ### Query
 
@@ -135,8 +138,11 @@ When a new **public** raw source is added:
 6. **Critique audit:** pages that only describe “what it is” with no Missing /
    Rethink / Debate / Needs evidence → rewrite.
 7. **Guess audit:** confident claims without citations → demote or delete.
-8. Record findings as a `lint` entry in `log.md`; file anything substantial
-   as a `wiki/syntheses/` page.
+8. **Bilingual audit:** every content page under `wiki/` (courses, products,
+   concepts, syntheses, index, overview) has a matching `.zh.md`; section
+   counts match; mutual language links present; no EN-only lag.
+9. Record findings as a `lint` entry in `log.md`; file anything substantial
+   as a `wiki/syntheses/` page (EN+ZH).
 
 ## Log format
 
@@ -156,16 +162,20 @@ When a new **public** raw source is added:
   `raw/` is the copy; `wiki/` is the compound.
 - **Epistemic standard (required):** Known / Missing / Rethink / Debate /
   Needs evidence — see section above. No guessing as fact.
-- **Every wiki page is bilingual: `name.md` (English) + `name.zh.md` (Chinese)**,
-  matching the source repos' own convention. Chinese is a professional
-  localization, not an abbreviated translation — same section order (including
-  Known/Missing/Rethink/Debate/Needs evidence), same code, same diagram
-  meaning, same links (pointed at the `.zh.md` sibling of whatever the
-  English page links to internally; external/`raw/` links stay as-is).
-  Every English page opens with `Chinese: [name.zh.md](name.zh.md)` and every
-  Chinese page with `English: [name.md](name.md)`. `README.md`/`AGENTS.md`/
-  `DISCLAIMER.md` follow the same rule. Write both languages in the same
-  ingest pass — don't let one lag as a follow-up.
+- **Every wiki content page is bilingual: `name.md` (English) + `name.zh.md`
+  (中文)**, same convention as the design/POC repos. Chinese is a full
+  localization — same section order (including Known / Missing / Rethink /
+  Debate / Needs evidence), same code blocks, same diagram meaning, same
+  claims. Internal wiki links point at the `.zh.md` sibling; `raw/` and
+  external URLs stay unchanged.
+  - English page header: `Chinese: [name.zh.md](name.zh.md)`
+  - Chinese page header: `English: [name.md](name.md)`
+  - Applies to: `wiki/courses/`, `wiki/products/`, `wiki/concepts/`,
+    `wiki/syntheses/`, `wiki/index`, `wiki/overview`, plus root `README` /
+    `AGENTS` / `DISCLAIMER` when those change.
+  - **Exception:** `wiki/log.md` stays English-only (ops chronology).
+  - Write **both languages in the same ingest pass** — never ship EN and
+    leave ZH as TODO.
 - Every wiki page ends with a `## Sources` section linking back to specific
   `raw/` file(s) or noting analysis over public sources actually read.
 - Claims about “what the code does” need verification notes when the POC is

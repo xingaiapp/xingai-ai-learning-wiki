@@ -1,5 +1,7 @@
 # Synthesis: "Layers of AI" vs XingAI curriculum
 
+Chinese: [layers-of-ai-vs-curriculum.zh.md](layers-of-ai-vs-curriculum.zh.md)
+
 Popular infographic (user-ingested 2026-07-16): six stacked cylinders — Classical AI → Machine Learning → Neural Networks → Deep Learning → Generative AI → Agentic AI.
 
 Asset: `raw/external/2026-07-16-layers-of-ai/`.

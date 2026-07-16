@@ -1,5 +1,7 @@
 # Concept: Loop Engineering
 
+Chinese: [loop-engineering.zh.md](loop-engineering.zh.md)
+
 Explicit loops with state, stop conditions, and evaluable steps — treating agent/LLM work as an engineered control loop, not an open-ended chat. Taught across design articles, engineering-system patterns, and tech-blog deep dives; advanced track continues it in `deep-enterprise-ai`.
 
 ## Where it shows up (public)

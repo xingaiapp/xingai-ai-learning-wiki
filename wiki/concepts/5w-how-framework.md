@@ -1,5 +1,7 @@
 # Concept: The 5W+How Framework
 
+Chinese: [5w-how-framework.zh.md](5w-how-framework.zh.md)
+
 The pedagogical spine of all 10 courses (`COURSE-STANDARD.md`'s Required Structure, items 1-6): every core concept must answer **What** (definition, vocabulary, falsifiable claims), **Why** (user problem, business outcome), **Who** (users, builders, owners, reviewers, approvers), **When** (selection signals, prerequisites, when *not* to use it), **Where** (position in request/data/control/trust/organization boundaries), and **How** (implementation sequence, operations, validation, retirement) — then a **Four-Depth Explanation** at Beginner/Engineer/Architect/CTO levels.
 
 This is the same framework this session used independently (before discovering it was already the course standard) to write the [Third-Party MCP Access: API Key or OAuth 2.1?](https://github.com/xingaiapp/xingai-enterprise-ai-design/blob/main/articles/2026-07-15-third-party-mcp-auth-api-key-vs-oauth2.md) design article — a 5W structure applied to a single architecture decision rather than a whole course.

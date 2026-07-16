@@ -1,5 +1,7 @@
 # Product: claims-multiagent-rag-poc
 
+Chinese: [claims-multiagent-rag-poc.zh.md](claims-multiagent-rag-poc.zh.md)
+
 **Repo:** [xingai-enterprise-ai-pocs](https://github.com/xingaiapp/xingai-enterprise-ai-pocs) · **Status:** Runnable · Phases 1–6
 
 Supervisor + specialist agents + RAG-with-citations + human-in-the-loop for insurance claims. Explicitly a **decision assistant**, not auto-adjudication — uncertain or high-dollar paths escalate.

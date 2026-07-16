@@ -1,5 +1,7 @@
 # Product family: xingai-enterprise-ai-design
 
+Chinese: [xingai-enterprise-ai-design.zh.md](xingai-enterprise-ai-design.zh.md)
+
 **Repo:** [xingai-enterprise-ai-design](https://github.com/xingaiapp/xingai-enterprise-ai-design)
 
 Curriculum + design articles + labs. The wiki's course pages (`wiki/courses/`) are the **entity layer**; this page is how the *rest* of the design repo plugs into them.

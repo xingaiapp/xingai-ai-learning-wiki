@@ -1,5 +1,7 @@
 # Product: claims-partner-api-mcp-poc
 
+Chinese: [claims-partner-api-mcp-poc.zh.md](claims-partner-api-mcp-poc.zh.md)
+
 **Repo:** [xingai-enterprise-ai-pocs](https://github.com/xingaiapp/xingai-enterprise-ai-pocs) · **Status:** Runnable · Phase 1
 
 OpenAPI-first wrap of a claims REST API as one MCP server with broad coverage (~18 tools / 7 domains), Zod-validated inputs, idempotent payment writes, and an explicit claim-status state machine. Auth for third parties is **intentionally missing**.

@@ -1,5 +1,7 @@
 # Course 07: Enterprise AI Decision Systems
 
+Chinese: [07-enterprise-decision-systems.zh.md](07-enterprise-decision-systems.zh.md)
+
 **Prerequisite:** [06](06-production-ai-engineering.md) · **Gate:** architecture review board defense · **Next:** [08](08-ai-leadership-cto.md)
 
 This course *is* the Decision Ledger pattern, taught as architecture: "decision computation belongs in a worker/core domain boundary; APIs transport precomputed decisions; UIs explain them; execution remains separately authorized." The immutable `Decision` dataclass in the raw source, with `api_view()` explicitly commented `# transport only; no request-time recomputation`, is the teaching version of the same shape the public claims POC implements as `DecisionLedger`.

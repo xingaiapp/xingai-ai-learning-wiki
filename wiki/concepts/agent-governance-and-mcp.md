@@ -1,5 +1,7 @@
 # Concept: Agent Governance And MCP
 
+Chinese: [agent-governance-and-mcp.zh.md](agent-governance-and-mcp.zh.md)
+
 Two related but distinct control questions that recur across courses and public POCs:
 
 1. **Can this caller invoke this tool at all?** — OAuth scope / MCP authorization ([Course 04](../courses/04-mcp-interoperability.md)).

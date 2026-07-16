@@ -1,5 +1,7 @@
 # Synthesis: 2026-07-16 Courses Review Findings
 
+Chinese: [review-findings-2026-07-16.zh.md](review-findings-2026-07-16.zh.md)
+
 Audit trail from the review that seeded this wiki — filed as a page instead of left in chat. Scope here is the **public curriculum** only.
 
 ## What was checked

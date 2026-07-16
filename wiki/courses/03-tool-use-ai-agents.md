@@ -1,5 +1,7 @@
 # Course 03: Tool Use And AI Agents
 
+Chinese: [03-tool-use-ai-agents.zh.md](03-tool-use-ai-agents.zh.md)
+
 **Prerequisite:** [01](01-llm-application-engineering.md) · **Gate:** safe workflow/agent comparison · **Next:** [04 MCP](04-mcp-interoperability.md)
 
 The workflow-vs-agent distinction that everything downstream depends on: a workflow follows coded paths, an agent lets a model choose steps and tools within *bounded authority*. The state diagram's `Validate → Approve (consequential) / Execute (read-only)` split matches the two-wall authorization model in [claims-mcp-oauth-poc](../products/claims-mcp-oauth-poc.md) — OAuth scope answers "can it call this at all," this course's approval gate answers "is this specific action allowed."

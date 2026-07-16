@@ -1,5 +1,7 @@
 # Product: event-bus-ai-review
 
+Chinese: [event-bus-ai-review.zh.md](event-bus-ai-review.zh.md)
+
 **Repo:** [xingai-enterprise-ai-pocs](https://github.com/xingaiapp/xingai-enterprise-ai-pocs) · **Status:** Architecture only — not runnable
 
 Design for routing a business event to independent subscribers (AI review, compliance, human approval, audit) via an event bus, then assembling a decision packet.

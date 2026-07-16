@@ -1,5 +1,7 @@
 # Course 02: RAG And Knowledge Systems
 
+Chinese: [02-rag-knowledge-systems.zh.md](02-rag-knowledge-systems.zh.md)
+
 **Prerequisite:** [01](01-llm-application-engineering.md) · **Gate:** grounded-answer evaluation
 
 Retrieval-augmented generation as a discipline, not a library call: ingest → parse → chunk → enrich → index → retrieve → rerank → assemble → generate-with-citations → evaluate, with authorization (document-level ACLs) enforced before ranking, not after. The failure-analysis list (poisoned documents, cross-tenant leakage, stale indexes, "citation-shaped" unsupported claims) reads like a checklist for the RAG layers in [claims-multiagent-rag-poc](../products/claims-multiagent-rag-poc.md) and [claims-workflow-v2-poc](../products/claims-workflow-v2-poc.md) Phase 2 — the latter's choice to skip a vector database for a small per-policy corpus is this course's "prefer long context for small stable corpora" guidance, applied.

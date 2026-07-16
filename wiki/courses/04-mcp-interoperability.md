@@ -1,5 +1,7 @@
 # Course 04: MCP And Interoperability
 
+Chinese: [04-mcp-interoperability.zh.md](04-mcp-interoperability.zh.md)
+
 **Prerequisite:** [03](03-tool-use-ai-agents.md) · **Gate:** secured MCP client/server lab · **Next:** [05](05-agent-runtime-multi-agent.md)
 
 MCP as a governed capability boundary, not just a plugin format: initialize → discover → validate → authenticate → authorize-for-target-resource → execute least-privilege → audit. The failure list — never pass through upstream tokens, never accept a token meant for another resource, never infer authorization from tool visibility — is the confused-deputy risk that [claims-mcp-oauth-poc](../products/claims-mcp-oauth-poc.md)'s two-wall model (OAuth scope + independent business-rule policy) was built specifically to close. [claims-partner-api-mcp-poc](../products/claims-partner-api-mcp-poc.md) is the complementary coverage-first design point.

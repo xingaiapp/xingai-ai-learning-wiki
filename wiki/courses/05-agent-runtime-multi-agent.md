@@ -1,5 +1,7 @@
 # Course 05: Agent Runtime And Multi-Agent Systems
 
+Chinese: [05-agent-runtime-multi-agent.zh.md](05-agent-runtime-multi-agent.zh.md)
+
 **Prerequisite:** [04](04-mcp-interoperability.md) · **Gate:** recoverable stateful workflow · **Next:** [06](06-production-ai-engineering.md)
 
 Durable execution and the multi-agent decision rule that matters most: "add agents only for real specialization, trust separation, or parallelism" — not because more agents feels more sophisticated. The explicit state machine (`ALLOWED` transition table, illegal transitions raise) is the same discipline `claims-workflow-v2-poc`'s Case Resolution Router uses — resume at a specific stage, never guess your way back to intake.

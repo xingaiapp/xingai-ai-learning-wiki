@@ -1,5 +1,7 @@
 # Product family: xingai-engineering-system
 
+Chinese: [xingai-engineering-system.zh.md](xingai-engineering-system.zh.md)
+
 **Repo:** [xingai-engineering-system](https://github.com/xingaiapp/xingai-engineering-system)
 
 Not a product. A pattern pack ("patterns, not libraries") that products copy into their own DBs and repos. For this wiki, the useful move is to see the **same idea** under three names:

@@ -1,5 +1,7 @@
 # Index
 
+Chinese: [index.zh.md](index.zh.md)
+
 Start at [overview.md](overview.md) if you're new here. This page is the flat catalog — read it first when answering a query, then drill into specific pages.
 
 ## Courses (`wiki/courses/`)

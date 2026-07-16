@@ -1,5 +1,7 @@
 # Disclaimer
 
+Chinese: [DISCLAIMER.zh.md](DISCLAIMER.zh.md)
+
 Content in this repository is provided for **informational and educational purposes** only.
 
 - Wiki pages, raw snapshots, and agent notes are provided **"as is"** with no warranty.

@@ -1,5 +1,7 @@
 # Course 00: AI Foundations
 
+Chinese: [00-ai-foundations.zh.md](00-ai-foundations.zh.md)
+
 **Prerequisite:** none · **Gate:** 80% · **Next:** [01 LLM Application Engineering](01-llm-application-engineering.md)
 
 The entry point for the whole curriculum: explain AI/ML/deep learning/transformers/tokens/embeddings precisely enough to prevent "magical thinking" later, run a tiny semantic-similarity example (cosine distance over hand-supplied vectors), and — the load-bearing skill — identify where model output can fail (fluency mistaken for truth, one anecdote standing in for evaluation, benchmark scores mistaken for product outcomes).

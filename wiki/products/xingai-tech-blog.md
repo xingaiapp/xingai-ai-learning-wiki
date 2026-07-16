@@ -1,5 +1,7 @@
 # Product family: xingai-tech-blog (selected)
 
+Chinese: [xingai-tech-blog.zh.md](xingai-tech-blog.zh.md)
+
 **Repo:** [xingai-tech-blog](https://github.com/xingaiapp/xingai-tech-blog)
 
 Raw holds nine English posts. This page is **not** that file list — it is what those posts jointly argue that the courses/POCs alone leave implicit.

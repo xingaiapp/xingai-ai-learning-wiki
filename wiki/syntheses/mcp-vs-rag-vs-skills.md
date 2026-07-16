@@ -1,5 +1,7 @@
 # Synthesis: MCP vs RAG vs Skills (poster) vs XingAI map
 
+Chinese: [mcp-vs-rag-vs-skills.zh.md](mcp-vs-rag-vs-skills.zh.md)
+
 Three-column infographic (user-ingested 2026-07-16): MCP | RAG | Agent Skills as “architectures that improve AI agents.”
 
 Asset: `raw/external/2026-07-16-mcp-vs-rag-vs-skills/`.

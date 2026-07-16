@@ -1,5 +1,7 @@
 # Product: claims-mcp-oauth-poc
 
+Chinese: [claims-mcp-oauth-poc.zh.md](claims-mcp-oauth-poc.zh.md)
+
 **Repo:** [xingai-enterprise-ai-pocs](https://github.com/xingaiapp/xingai-enterprise-ai-pocs) · **Status:** Runnable · Phase 1
 
 The public proof that "MCP auth" is not a middleware checkbox: OAuth 2.1 + mandatory PKCE, `.well-known` discovery, short-lived audience-scoped JWTs, Review→Adjudicate (no one-step binding write), and two walls — scope answers "can this caller invoke this tool," settlement policy answers "may *this* claim at *this* amount go through."
