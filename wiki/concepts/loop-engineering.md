@@ -19,7 +19,6 @@ Explicit loops with state, stop conditions, and evaluable steps — treating age
 - [Concept: Cache / fallback LLM discipline](cache-first-llm-architecture.md) — loops still need bounded cost and fallbacks
 - [Concept: Agent governance and MCP](agent-governance-and-mcp.md) — loops that call tools need walls
 - Runnable graphs: [claims-workflow-v2-poc](../products/claims-workflow-v2-poc.md), [claims-multiagent-rag-poc](../products/claims-multiagent-rag-poc.md)
-- External reference poster (critique, not blueprint): [Enterprise agent architecture vs XingAI](../syntheses/enterprise-agent-architecture-vs-xingai.md)
 
 ## Sources
 

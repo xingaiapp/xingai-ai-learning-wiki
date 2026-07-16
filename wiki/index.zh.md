@@ -49,8 +49,6 @@ English: [index.md](index.md)
 | 页面 | 一句话摘要 |
 |---|---|
 | [mcp-vs-rag-vs-skills](syntheses/mcp-vs-rag-vs-skills.zh.md) | 三栏海报对比 XingAI:构成关系而非"二选一";Skills≠MCP 工具。 |
-| [enterprise-agent-architecture-vs-xingai](syntheses/enterprise-agent-architecture-vs-xingai.zh.md) | Rishi 企业 agent 海报对比第 02–07 课/claims POC——双方各自的已知缺口。 |
-| [layers-of-ai-vs-curriculum](syntheses/layers-of-ai-vs-curriculum.zh.md) | 流行的 Classical→Agentic 分层图映射到 XingAI 课程——以及"自主"被夸大的地方。 |
 | [claims-poc-family-tradeoffs](syntheses/claims-poc-family-tradeoffs.zh.md) | 四个 claims POC 之间 Auth vs Coverage vs 工作流的矩阵(+ event-bus 对照)。 |
 | [review-findings-2026-07-16](syntheses/review-findings-2026-07-16.zh.md) | 课程审计记录:结构、代码、链接、双语一致性。 |
 

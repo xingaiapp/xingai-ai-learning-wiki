@@ -25,8 +25,6 @@ English: [loop-engineering.md](loop-engineering.md)
   需要墙。
 - 可运行的图:[claims-workflow-v2-poc](../products/claims-workflow-v2-poc.zh.md)、
   [claims-multiagent-rag-poc](../products/claims-multiagent-rag-poc.zh.md)
-- 外部参考海报(是批判对象,不是蓝图):
-  [企业 agent 架构对比 XingAI](../syntheses/enterprise-agent-architecture-vs-xingai.zh.md)
 
 ## 来源
 

@@ -59,9 +59,11 @@ Trigger with those names or `/xingai-ai-learning-wiki` / `/xingai-wiki-ingest`.
 ## Status
 
 Trial / v0. Full public-repo sync last run **2026-07-16**. Wiki content pages
-are bilingual (`wiki/**/*.md` + `*.zh.md`, 31/31 pairs) as of the same day.
-Skipped: `xingai-ai-learning-wiki` (self), `xingai-dot-app` (P2 marketing).
-Deep enterprise course bodies not fully snapshotted yet (README index only).
+are bilingual (`wiki/**/*.md` + `*.zh.md`). Dropped third-party-authored image
+wiki (Michael Lee / Rishi posters) the same day — keep XingAI public sources +
+unattributed critique packages only when useful. Skipped: `xingai-ai-learning-wiki`
+(self), `xingai-dot-app` (P2 marketing). Deep enterprise course bodies not fully
+snapshotted yet (README index only).
 
 ## Disclaimer
 

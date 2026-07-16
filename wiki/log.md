@@ -59,7 +59,21 @@ Three-column marketing architecture poster. Package: `raw/external/2026-07-16-mc
 
 `xingai-wiki-ingest` and `xingai-ai-learning-wiki` now require EN+中文 (`name.md` + `name.zh.md`) on every new/updated wiki content page in the same ingest pass. Lint: bilingual audit. `wiki/log.md` remains English-only. Existing EN-only pages are debt — backfill on next touch or dedicated pass.
 
+## [2026-07-16] ingest | external: LLM vs RAG vs AI Agent vs Agentic AI (image)
+
+User-attached Michael Lee “Layers of Intelligence” poster (Language→Grounding→Execution→Orchestration + foundation strip). Package: `raw/external/2026-07-16-llm-rag-agent-agentic-layers/`. Wiki: [syntheses/llm-rag-agent-agentic-vs-xingai.md](syntheses/llm-rag-agent-agentic-vs-xingai.md) · [中文](syntheses/llm-rag-agent-agentic-vs-xingai.zh.md). `verified: partial`. Critique: “vs” false exclusivity; MCP only under Agentic; foundation tiles help vs six-ring poster but still miss two-wall auth / Decision Ledger; distinct from Classical stack and MCP|RAG|Skills cuts. Linked from Course 00 + sibling syntheses; index EN+ZH updated.
+
 ## [2026-07-16] lint | Bilingual backfill (all wiki content)
 
 Dedicated pass: every `wiki/` content page now has a `.zh.md` peer (31/31), plus root `README.zh.md` / `AGENTS.zh.md` / `DISCLAIMER.zh.md`. EN pages carry `Chinese:` headers; ZH pages carry `English:`. Internal links in ZH point at `.zh.md` siblings. Syntheses + products + remaining concepts translated in this pass; courses/index/overview had already been started earlier the same day. `wiki/log.md` stays EN-only.
+
+## [2026-07-16] lint | Drop third-party-authored image wiki
+
+Removed wiki + `raw/external/` for images with non-XingAI author credits:
+
+- Michael / Michael Lee (From Pilots to Platforms): `layers-of-ai`, `llm-rag-agent-agentic-layers`
+- Rishi: `enterprise-ai-agent-architecture`
+
+Deleted synthesis pages (EN+ZH) and scrubbed links from index, Course 00, loop-engineering, agent-governance, mcp-vs-rag-vs-skills. **Kept** `mcp-vs-rag-vs-skills` (no author line on crop — not clearly third-party-attributed).
+
 

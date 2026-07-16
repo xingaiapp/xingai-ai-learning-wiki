@@ -21,9 +21,6 @@ English: [00-ai-foundations.md](00-ai-foundations.md)
   首次以微缩形式被教授的地方(What/Why/Who/When/Where/How 作为标题)。
 - [09 AI 面试精通](09-ai-interview-mastery.zh.md)——入门级面试题("什么是
   embedding?")正是从本课程的词汇体系开始的。
-- 外部教学辅助材料:[Layers of AI 对比课程体系](../syntheses/layers-of-ai-vs-curriculum.zh.md)
-  ——把街头流传的"Classical→Agentic"分层图映射到本课程路径上(以及该图在哪里
-  夸大了"自主性")。
 
 ## 已验证
 
@@ -36,5 +33,4 @@ Python 代码块逐字节一致,Mermaid 图示含义一致(节点标签已翻译
 
 ## 来源
 
-`raw/courses/00-ai-foundations/README.md`;外部分层图见
-`raw/external/2026-07-16-layers-of-ai/`
+`raw/courses/00-ai-foundations/README.md`

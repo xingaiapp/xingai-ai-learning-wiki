@@ -21,7 +21,6 @@ English: [agent-governance-and-mcp.md](agent-governance-and-mcp.md)
 
 - [第 03 课](../courses/03-tool-use-ai-agents.zh.md)、[第 04 课](../courses/04-mcp-interoperability.zh.md)、[第 05 课](../courses/05-agent-runtime-multi-agent.zh.md)
 - [概念:决策台账模式](decision-ledger-pattern.zh.md)——需要事后举证时,治理裁决应落在台账行里。
-- 街头「企业 agent」海报常把鉴权埋在 Platform Foundation 下——对照[企业 agent 架构 vs XingAI](../syntheses/enterprise-agent-architecture-vs-xingai.zh.md)(缺失:双墙鉴权;再想:RESPOND 之后的护栏 vs ACT 之前的闸门)。
 - 把「MCP vs RAG vs Skills」当成互斥三栏——对照 [mcp-vs-rag-vs-skills](../syntheses/mcp-vs-rag-vs-skills.zh.md) 与 procedure-vs-capability 博文。
 
 ## 来源
