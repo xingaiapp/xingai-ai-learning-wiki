@@ -50,6 +50,7 @@ English: [index.md](index.md)
 
 | 页面 | 一句话摘要 |
 |---|---|
+| [ai-architecture-digest-2026-07-17](syntheses/ai-architecture-digest-2026-07-17.zh.md) | 周报映射到课程 02/04/05/10——长任务 MCP、证据 RAG、架构路由。 |
 | [rag-vs-agentic-rag-vs-xingai](syntheses/rag-vs-agentic-rag-vs-xingai.zh.md) | RAG / AI Agent / Multi-Agent RAG 海报对比第 02–05 课——「vs」是假互斥;MCP 无墙。 |
 | [mcp-vs-rag-vs-skills](syntheses/mcp-vs-rag-vs-skills.zh.md) | 三栏海报对比 XingAI:构成关系而非"二选一";Skills≠MCP 工具。 |
 | [claims-poc-family-tradeoffs](syntheses/claims-poc-family-tradeoffs.zh.md) | 四个 claims POC 之间 Auth vs Coverage vs 工作流的矩阵(+ event-bus 对照)。 |

@@ -14,6 +14,7 @@ The course lab extends an existing lab (`guides/2026-07-12-mcp-oauth-pkce-lab.md
 - [claims-mcp-oauth-poc](../products/claims-mcp-oauth-poc.md), [claims-partner-api-mcp-poc](../products/claims-partner-api-mcp-poc.md), [claims-workflow-v2-poc](../products/claims-workflow-v2-poc.md)
 - [OAuth / OIDC / Azure Identity catalog](../concepts/oauth-oidc-azure-identity/00-overview.md)
 - False “MCP vs Skills vs RAG” exclusivity: [mcp-vs-rag-vs-skills](../syntheses/mcp-vs-rag-vs-skills.md); procedure vs capability: tech-blog post cited there.
+- Weekly map (stateless/long-running MCP, durable workflows): [ai-architecture-digest-2026-07-17](../syntheses/ai-architecture-digest-2026-07-17.md).
 
 ## Verified
 

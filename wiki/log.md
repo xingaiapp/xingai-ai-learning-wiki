@@ -117,3 +117,7 @@ Published specialization Course 10 in `xingai-enterprise-ai-design` (26 bilingua
 ## [2026-07-16] lint/ingest | oauth-oidc-azure-identity ← Course 10
 
 Rewrote `wiki/concepts/oauth-oidc-azure-identity/` (overview + 26 EN/ZH pages) from Course 10 teach blocks + epistemic critique. Snapshotted course into `raw/xingai-enterprise-ai-design/courses/10-oauth-oidc-azure-identity/`. External outline retained only as provenance. Updated course wiki Known + index blurbs.
+
+## [2026-07-17] ingest | AI Architecture Digest 2026-07-17
+
+User-pasted weekly digest → `raw/external/2026-07-17-ai-architecture-digest/` (`verified: partial`; SSRN Agent Traps 403). Synthesis EN+ZH: `wiki/syntheses/ai-architecture-digest-2026-07-17(.zh).md` — maps durable MCP / evidence RAG / architecture router to Courses 02/04/05/10. Indexed; cross-linked from agent-governance, Course 02, Course 04.

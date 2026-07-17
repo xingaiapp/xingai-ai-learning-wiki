@@ -1,0 +1,23 @@
+# SOURCE — AI Architecture Digest 2026-07-17
+
+- **type:** context (user-pasted bilingual architecture digest)
+- **title:** AI Architecture Digest｜2026-07-17
+- **provided_by:** user (XingAI wiki ingest)
+- **ingest_date:** 2026-07-17
+- **canonical_url:** none (digest paste; cites public blogs/papers)
+- **verified:** partial
+  - Spot-checked URLs on 2026-07-17 (HTTP):
+    - Google Scaling Agent Systems blog → 200
+    - Google ReasoningBank blog → 200
+    - Azure long-running MCP tools blog → 200
+    - C# MCP SDK releases → 200
+    - Azure AI Search Knowledge Base docs → 200
+    - Google Agentic RAG blog → 200
+    - arXiv 2607.07858 → 200
+    - .NET Blog AI category → 200
+    - Azure Functions MCP Build updates → 200
+    - Foundry agent service Build post → 200
+    - SSRN abstract_id=6372438 (AI Agent Traps) → **403** from this environment
+  - Digest narrative itself is user-authored synthesis, not a primary paper.
+- **notes:** Strip `utm_source=chatgpt.com` when citing. Do not treat digest claims as paper abstracts without opening the primary URL.
+- **wiki_target:** `wiki/syntheses/ai-architecture-digest-2026-07-17.md` (+ `.zh.md`)

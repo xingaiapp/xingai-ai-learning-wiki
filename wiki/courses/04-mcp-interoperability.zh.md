@@ -25,6 +25,7 @@ MCP 是受治理的能力边界,不只是一种插件格式:初始化 → 发现
 - 虚假的"MCP vs Skills vs RAG"互斥说法:
   [mcp-vs-rag-vs-skills](../syntheses/mcp-vs-rag-vs-skills.zh.md);
   程序 vs 能力的区分见该页引用的 tech-blog 文章。
+- 周报地图（无状态/长任务 MCP、持久工作流）：[ai-architecture-digest-2026-07-17](../syntheses/ai-architecture-digest-2026-07-17.zh.md)。
 
 ## 已验证
 
