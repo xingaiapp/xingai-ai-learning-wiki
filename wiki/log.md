@@ -121,3 +121,15 @@ Rewrote `wiki/concepts/oauth-oidc-azure-identity/` (overview + 26 EN/ZH pages) f
 ## [2026-07-17] ingest | AI Architecture Digest 2026-07-17
 
 User-pasted weekly digest → `raw/external/2026-07-17-ai-architecture-digest/` (`verified: partial`; SSRN Agent Traps 403). Synthesis EN+ZH: `wiki/syntheses/ai-architecture-digest-2026-07-17(.zh).md` — maps durable MCP / evidence RAG / architecture router to Courses 02/04/05/10. Indexed; cross-linked from agent-governance, Course 02, Course 04.
+
+## [2026-07-17] ingest | LLM guardrails poster → XingAI UX map
+
+User attached Alok Sharan 10-step guardrails/monitoring poster. Per ownership gate: poster stays reference-only under `raw/external/2026-07-17-llm-guardrails-monitoring-poster/`. Drew XingAI Decide/Gate/Run PNG → `wiki/assets/ux/llm-app-guardrails-monitoring/xingai-map.png`. Critique synthesis EN+ZH: `wiki/syntheses/llm-guardrails-monitoring-vs-xingai(.zh).md`.
+
+## [2026-07-17] ux-png | guardrails poster re-run (evaluate → fix → draw)
+
+`/xingai-ux-png` on same poster with v1.2 skill: evaluated wrong claims (tool stickers as architecture, GPT-5.5, jailbreak-only input, deploy-last security, metrics-only monitor); fixed + added MCP two-wall / evidence RAG / Agent Run traces / continuous identity; regenerated `xingai-map.png`; refreshed EN+ZH Rethink + `notes.md`.
+
+## [2026-07-17] ingest | guardrails ladder variant B (12-step)
+
+User attached 12-step Plan/Build/Validate/Operate diagram (same title family; no author credit on image). Snapshotted as `raw/.../12-step-plan-build-validate-operate-reference.png` (reference-only). Updated synthesis EN+ZH: B improves on A (early risk/policy, Iterate & Govern) but still tool-column architecture — XingAI map remains the only wiki embed.

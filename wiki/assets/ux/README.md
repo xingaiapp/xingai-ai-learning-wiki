@@ -8,3 +8,5 @@ when theme-dependent).
 
 Rules: `$WIKI/AGENTS.md` and `~/.cursor/skills/xingai-wiki-ingest/references/ux-png.md`.
 Do not store third-party-authored marketing posters here.
+To draw a XingAI map from a poster, use skill `xingai-ux-png` (`/xingai-ux-png`):
+**evaluate → fix wrong parts → add corrections → draw** from XingAI understanding (never copy the original).

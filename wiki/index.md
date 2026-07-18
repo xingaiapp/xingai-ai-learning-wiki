@@ -50,6 +50,7 @@ Start at [overview.md](overview.md) if you're new here. This page is the flat ca
 | Page | One-line summary |
 |---|---|
 | [ai-architecture-digest-2026-07-17](syntheses/ai-architecture-digest-2026-07-17.md) | Weekly digest mapped to Courses 02/04/05/10 — durable MCP, evidence RAG, architecture router. |
+| [llm-guardrails-monitoring-vs-xingai](syntheses/llm-guardrails-monitoring-vs-xingai.md) | 10-step + 12-step Plan/Build/Validate/Operate ladders vs XingAI Decide/Gate/Run map (references only; corrected UX PNG). |
 | [rag-vs-agentic-rag-vs-xingai](syntheses/rag-vs-agentic-rag-vs-xingai.md) | RAG / AI Agent / Multi-Agent RAG poster vs Courses 02–05 — “vs” false; MCP without walls. |
 | [mcp-vs-rag-vs-skills](syntheses/mcp-vs-rag-vs-skills.md) | Three-column poster vs XingAI: composition over “vs”; Skills≠MCP tools. |
 | [claims-poc-family-tradeoffs](syntheses/claims-poc-family-tradeoffs.md) | Auth vs coverage vs workflow matrix across the four claims POCs (+ event-bus contrast). |
