@@ -58,3 +58,8 @@ Both are checklists with **Tools** rows. Neither is an enterprise control plane.
 
 - Raw: `raw/external/2026-07-17-llm-guardrails-monitoring-poster/` (A + B references + `notes.md`)
 - UX (wiki embed only): `wiki/assets/ux/llm-app-guardrails-monitoring/xingai-map.png`
+- POC: https://github.com/xingaiapp/xingai-enterprise-ai-pocs/tree/main/pocs/llm-guardrails-monitoring-poc
+- ADR-010: https://github.com/xingaiapp/xingai-enterprise-ai-pocs/blob/main/docs/adr/010-llm-guardrails-monitoring-poc.md
+- Tech blog: https://github.com/xingaiapp/xingai-tech-blog/blob/main/posts/2026-07-17-llm-guardrails-twelve-steps-not-tool-stickers.md
+- Design: https://github.com/xingaiapp/xingai-enterprise-ai-design/blob/main/articles/2026-07-17-llm-app-guardrails-plan-build-validate-operate.md
+- Product wiki: [llm-guardrails-monitoring-poc](../products/llm-guardrails-monitoring-poc.md)

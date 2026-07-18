@@ -58,3 +58,8 @@ English: [llm-guardrails-monitoring-vs-xingai.md](llm-guardrails-monitoring-vs-x
 
 - Raw：`raw/external/2026-07-17-llm-guardrails-monitoring-poster/`（A + B 参考 + `notes.md`）
 - UX（仅 wiki 嵌入）：`wiki/assets/ux/llm-app-guardrails-monitoring/xingai-map.png`
+- POC：https://github.com/xingaiapp/xingai-enterprise-ai-pocs/tree/main/pocs/llm-guardrails-monitoring-poc
+- ADR-010：https://github.com/xingaiapp/xingai-enterprise-ai-pocs/blob/main/docs/adr/010-llm-guardrails-monitoring-poc.zh.md
+- 技术博文：https://github.com/xingaiapp/xingai-tech-blog/blob/main/posts/2026-07-17-llm-guardrails-twelve-steps-not-tool-stickers.zh.md
+- 设计文：https://github.com/xingaiapp/xingai-enterprise-ai-design/blob/main/articles/2026-07-17-llm-app-guardrails-plan-build-validate-operate.zh.md
+- 产品 wiki：[llm-guardrails-monitoring-poc](../products/llm-guardrails-monitoring-poc.zh.md)

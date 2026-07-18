@@ -133,3 +133,7 @@ User attached Alok Sharan 10-step guardrails/monitoring poster. Per ownership ga
 ## [2026-07-17] ingest | guardrails ladder variant B (12-step)
 
 User attached 12-step Plan/Build/Validate/Operate diagram (same title family; no author credit on image). Snapshotted as `raw/.../12-step-plan-build-validate-operate-reference.png` (reference-only). Updated synthesis EN+ZH: B improves on A (early risk/policy, Iterate & Govern) but still tool-column architecture — XingAI map remains the only wiki embed.
+
+## [2026-07-17] docs-pack | LLM guardrails POC
+
+Added public product page `wiki/products/llm-guardrails-monitoring-poc(.zh).md`; linked synthesis to ADR-010, tech blog, enterprise design article, and runnable POC.

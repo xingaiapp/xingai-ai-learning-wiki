@@ -31,6 +31,7 @@ English: [index.md](index.md)
 | [claims-partner-api-mcp-poc](products/claims-partner-api-mcp-poc.zh.md) | 全 API 覆盖的 MCP 表面;鉴权延后。 |
 | [claims-multiagent-rag-poc](products/claims-multiagent-rag-poc.zh.md) | Supervisor + RAG + human-in-the-loop 的理赔演示。 |
 | [multi-agent-lab](products/multi-agent-lab.zh.md) | Orchestrator + 专家 agent + SQLite trace(平台 MVP)。 |
+| [llm-guardrails-monitoring-poc](products/llm-guardrails-monitoring-poc.zh.md) | 十二步 Plan→Build→Validate→Operate 演示 + XingAI 墙（ADR-010）。 |
 | [event-bus-ai-review](products/event-bus-ai-review.zh.md) | 事件总线 AI 审核——仅架构设计,不可运行。 |
 | [xingai-engineering-system](products/xingai-engineering-system.zh.md) | 公开模式文档(决策台账、loop、cache/worker)。 |
 | [xingai-tech-blog](products/xingai-tech-blog.zh.md) | 精选架构类教学文章。 |

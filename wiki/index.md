@@ -30,6 +30,7 @@ Start at [overview.md](overview.md) if you're new here. This page is the flat ca
 | [claims-partner-api-mcp-poc](products/claims-partner-api-mcp-poc.md) | Full API-coverage MCP surface; auth deferred. |
 | [claims-multiagent-rag-poc](products/claims-multiagent-rag-poc.md) | Supervisor + RAG + human-in-the-loop claims demo. |
 | [multi-agent-lab](products/multi-agent-lab.md) | Orchestrator + specialists + SQLite traces (platform MVP). |
+| [llm-guardrails-monitoring-poc](products/llm-guardrails-monitoring-poc.md) | 12-step Plan→Build→Validate→Operate demo with XingAI walls (ADR-010). |
 | [event-bus-ai-review](products/event-bus-ai-review.md) | Event-bus AI review — architecture only, not runnable. |
 | [xingai-engineering-system](products/xingai-engineering-system.md) | Public patterns (Decision Ledger, loops, cache/worker). |
 | [xingai-tech-blog](products/xingai-tech-blog.md) | Selected architecture teaching posts. |
