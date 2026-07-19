@@ -63,9 +63,10 @@ are bilingual (`wiki/**/*.md` + `*.zh.md`). Dropped third-party-authored image
 wiki (Michael Lee / Rishi posters) the same day — keep XingAI public sources +
 unattributed critique packages only when useful. UX PNGs go under
 `wiki/assets/ux/` when chrome/flow visuals are needed. Latest external
-ingest: RAG vs Agentic RAG critique. Skipped: `xingai-ai-learning-wiki`
-(self), `xingai-dot-app` (P2 marketing). Deep enterprise course bodies not fully
-snapshotted yet (README index only).
+ingest: **2026-07-19** MCP vs A2A vs ACP (ByteByteGo reference-only + XingAI
+corrected hop map under `wiki/assets/ux/mcp-vs-a2a-vs-acp/`). Skipped:
+`xingai-ai-learning-wiki` (self), `xingai-dot-app` (P2 marketing). Deep
+enterprise course bodies not fully snapshotted yet (README index only).
 
 ## Disclaimer
 

@@ -56,9 +56,10 @@ AGENTS.md                          摄入 / 查询 / 检查的 schema
 试运行 / v0。最近一次全量公开仓库同步于 **2026-07-16**。wiki 内容页双语
 (`wiki/**/*.md` + `*.zh.md`)。同日已删除第三方署名图片 wiki(Michael Lee /
 Rishi 海报)——保留 XingAI 公开来源,以及仍有用的未署名批判包。需要时 UX PNG
-放在 `wiki/assets/ux/`。最新外部摄入:RAG vs Agentic RAG 批判。跳过项:
-`xingai-ai-learning-wiki`(自身)、`xingai-dot-app`(P2 营销站点)。深度企业课程
-正文尚未完整快照(仅索引)。
+放在 `wiki/assets/ux/`。最新外部摄入:**2026-07-19** MCP vs A2A vs ACP
+(ByteByteGo 仅作 raw 参考 + XingAI 纠正后跳地图
+`wiki/assets/ux/mcp-vs-a2a-vs-acp/`)。跳过项:`xingai-ai-learning-wiki`(自身)、
+`xingai-dot-app`(P2 营销站点)。深度企业课程正文尚未完整快照(仅索引)。
 
 ## 免责声明
 

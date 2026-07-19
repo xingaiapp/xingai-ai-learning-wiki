@@ -137,3 +137,11 @@ User attached 12-step Plan/Build/Validate/Operate diagram (same title family; no
 ## [2026-07-17] docs-pack | LLM guardrails POC
 
 Added public product page `wiki/products/llm-guardrails-monitoring-poc(.zh).md`; linked synthesis to ADR-010, tech blog, enterprise design article, and runnable POC.
+
+## [2026-07-19] ingest | MCP vs A2A vs ACP (paste)
+
+User paste → `raw/external/2026-07-19-mcp-vs-a2a-vs-acp/` (`verified: partial`; Image mentioned, no file). Synthesis EN+ZH: `wiki/syntheses/mcp-vs-a2a-vs-acp(.zh).md` — MCP∥A2A complementarity; ACP as historical merge footnote; maps to Courses 04/05 + agent governance. Indexed; cross-linked. No UX PNG. Push: not requested.
+
+## [2026-07-19] ux-png | MCP vs A2A vs ACP (ByteByteGo poster)
+
+Attached ByteByteGo three-column poster → reference-only `raw/.../assets/bytebytego-mcp-a2a-acp-reference.png`. Evaluate→fix→correct→draw: `wiki/assets/ux/mcp-vs-a2a-vs-acp/xingai-map.png` (compose hops + MCP two walls + peer trust + ACP footnote; not a three-tower restyle). EN+ZH synthesis updated to embed XingAI map only. Push: not requested.

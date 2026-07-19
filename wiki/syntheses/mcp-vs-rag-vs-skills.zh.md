@@ -48,6 +48,7 @@ English: [mcp-vs-rag-vs-skills.md](mcp-vs-rag-vs-skills.md)
 - 面试 / 第 04–02 课探针:「画出这三者如何组合;再加鉴权与 ACL。」
 - 摄入营销图时:只复述三栏的页面应判失败。
 - 相关阶梯海报(RAG → agent → multi-agent MCP):[RAG vs Agentic RAG](rag-vs-agentic-rag-vs-xingai.zh.md)。
+- 智能体通信协议(MCP 工具 vs A2A 对等体;ACP 谱系):[mcp-vs-a2a-vs-acp](mcp-vs-a2a-vs-acp.zh.md)。
 
 ## 来源
 
