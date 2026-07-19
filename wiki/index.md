@@ -44,7 +44,7 @@ Start at [overview.md](overview.md) if you're new here. This page is the flat ca
 | [cache-first-llm-architecture](concepts/cache-first-llm-architecture.md) | Bound LLM cost / never one call as single point of failure. |
 | [agent-governance-and-mcp](concepts/agent-governance-and-mcp.md) | Two-wall auth: OAuth scope vs business-rule policy. |
 | [oauth-oidc-azure-identity](concepts/oauth-oidc-azure-identity/00-overview.md) | Course 10 synthesis: OAuth/OIDC → Entra mapping → MCP two-wall (26 pages). |
-| [loop-engineering](concepts/loop-engineering.md) | Explicit loops with state, stop conditions, eval. |
+| [loop-engineering](concepts/loop-engineering.md) | Explicit loops with state, stop conditions, eval — XingAI three-layer map. |
 
 ## Syntheses (`wiki/syntheses/`)
 
@@ -55,6 +55,8 @@ Start at [overview.md](overview.md) if you're new here. This page is the flat ca
 | [rag-vs-agentic-rag-vs-xingai](syntheses/rag-vs-agentic-rag-vs-xingai.md) | RAG / AI Agent / Multi-Agent RAG poster vs Courses 02–05 — “vs” false; MCP without walls. |
 | [mcp-vs-rag-vs-skills](syntheses/mcp-vs-rag-vs-skills.md) | Three-column poster vs XingAI: composition over “vs”; Skills≠MCP tools. |
 | [mcp-vs-a2a-vs-acp](syntheses/mcp-vs-a2a-vs-acp.md) | MCP (tools) ∥ A2A (peers); ACP footnote; XingAI map (not ByteByteGo towers). |
+| [loop-engineering-toolkit-vs-xingai](syntheses/loop-engineering-toolkit-vs-xingai.md) | Cobus ∞ toolkit poster vs XingAI Context/Harness/Loop + hard stops. |
+| [ai-systems-human-analogy-vs-xingai](syntheses/ai-systems-human-analogy-vs-xingai.md) | Body-organ LLM/RAG/Agent/MCP poster vs XingAI compose jobs + gates. |
 | [claims-poc-family-tradeoffs](syntheses/claims-poc-family-tradeoffs.md) | Auth vs coverage vs workflow matrix across the four claims POCs (+ event-bus contrast). |
 | [review-findings-2026-07-16](syntheses/review-findings-2026-07-16.md) | Courses audit trail: structure, code, links, bilingual parity. |
 

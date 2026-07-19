@@ -11,6 +11,7 @@ This course's honest caveat about checkpointing ("more agents increase nondeterm
 ## Connects to
 
 - [Concept: Decision Ledger pattern](../concepts/decision-ledger-pattern.md), [Concept: Loop engineering](../concepts/loop-engineering.md)
+- Toolkit “∞ Loop Ready” vs XingAI three-layer stops: [loop-engineering-toolkit-vs-xingai](../syntheses/loop-engineering-toolkit-vs-xingai.md)
 - [multi-agent-lab](../products/multi-agent-lab.md), [claims-multiagent-rag-poc](../products/claims-multiagent-rag-poc.md), [claims-workflow-v2-poc](../products/claims-workflow-v2-poc.md)
 - Wire protocols for peer agents (A2A / ACP lineage) vs in-process multi-agent + MCP: [mcp-vs-a2a-vs-acp](../syntheses/mcp-vs-a2a-vs-acp.md)
 

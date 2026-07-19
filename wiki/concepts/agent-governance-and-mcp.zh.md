@@ -26,6 +26,7 @@ English: [agent-governance-and-mcp.md](agent-governance-and-mcp.md)
 - [概念:决策台账模式](decision-ledger-pattern.zh.md)——需要事后举证时,治理裁决应落在台账行里。
 - 把「MCP vs RAG vs Skills」当成互斥三栏——对照 [mcp-vs-rag-vs-skills](../syntheses/mcp-vs-rag-vs-skills.zh.md) 与 procedure-vs-capability 博文。
 - MCP(工具跳) vs A2A(对等跳);鉴权墙不会自动迁移:[mcp-vs-a2a-vs-acp](../syntheses/mcp-vs-a2a-vs-acp.zh.md)。
+- MCP 不是一切 AI 的「神经系统」:[ai-systems-human-analogy-vs-xingai](../syntheses/ai-systems-human-analogy-vs-xingai.zh.md)。
 - 长任务 MCP + 持久执行 vs 授权墙：[ai-architecture-digest-2026-07-17](../syntheses/ai-architecture-digest-2026-07-17.zh.md)。
 
 ## 来源

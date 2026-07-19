@@ -49,6 +49,7 @@ English: [mcp-vs-rag-vs-skills.md](mcp-vs-rag-vs-skills.md)
 - 摄入营销图时:只复述三栏的页面应判失败。
 - 相关阶梯海报(RAG → agent → multi-agent MCP):[RAG vs Agentic RAG](rag-vs-agentic-rag-vs-xingai.zh.md)。
 - 智能体通信协议(MCP 工具 vs A2A 对等体;ACP 谱系):[mcp-vs-a2a-vs-acp](mcp-vs-a2a-vs-acp.zh.md)。
+- 身体器官式 LLM/RAG/Agent/MCP 类比:[ai-systems-human-analogy-vs-xingai](ai-systems-human-analogy-vs-xingai.zh.md)。
 
 ## 来源
 

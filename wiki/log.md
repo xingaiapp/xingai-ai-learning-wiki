@@ -145,3 +145,15 @@ User paste → `raw/external/2026-07-19-mcp-vs-a2a-vs-acp/` (`verified: partial`
 ## [2026-07-19] ux-png | MCP vs A2A vs ACP (ByteByteGo poster)
 
 Attached ByteByteGo three-column poster → reference-only `raw/.../assets/bytebytego-mcp-a2a-acp-reference.png`. Evaluate→fix→correct→draw: `wiki/assets/ux/mcp-vs-a2a-vs-acp/xingai-map.png` (compose hops + MCP two walls + peer trust + ACP footnote; not a three-tower restyle). EN+ZH synthesis updated to embed XingAI map only. Push: not requested.
+
+## [2026-07-19] ux-png | Loop Engineering toolkit (Cobus) vs XingAI
+
+Cobus Greyling README/infinity poster → reference-only `raw/external/2026-07-19-loop-engineering-toolkit-poster/`. Evaluate→fix→correct→draw: `wiki/assets/ux/loop-engineering-vs-xingai/xingai-map.png` (Context/Harness/Loop + STOP; not ∞ glow). Synthesis EN+ZH + concept `loop-engineering` updated. Push: not requested.
+
+## [2026-07-19] ingest | Loop Engineering toolkit poster (wiki-ingest)
+
+Same image as prior ux-png pass. Added `content.md` transcript; confirmed ownership gate (third-party reference-only). Wiki targets already present: `wiki/syntheses/loop-engineering-toolkit-vs-xingai(.zh).md`, concept embeds XingAI map only. No new vanity page. Push: not requested.
+
+## [2026-07-19] ux-png | AI Systems human analogy (Aiswarya)
+
+Two frames (title+credit; four body rows LLM/RAG/Agent/MCP) → reference-only `raw/external/2026-07-19-ai-systems-human-analogy/`. Evaluate→fix→correct→draw: `wiki/assets/ux/ai-systems-human-analogy/xingai-map.png` (compose jobs + MCP walls + gated agent; MCP ≠ nervous system). Synthesis EN+ZH. Push: not requested.

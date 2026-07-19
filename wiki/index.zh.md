@@ -45,7 +45,7 @@ English: [index.md](index.md)
 | [cache-first-llm-architecture](concepts/cache-first-llm-architecture.zh.md) | 控制 LLM 成本 / 绝不让单次调用成为单点故障。 |
 | [agent-governance-and-mcp](concepts/agent-governance-and-mcp.zh.md) | 双墙鉴权:OAuth scope 对比业务规则 policy。 |
 | [oauth-oidc-azure-identity](concepts/oauth-oidc-azure-identity/00-overview.zh.md) | 课程 10 综合: OAuth/OIDC → Entra 映射 → MCP 双墙(26 页)。 |
-| [loop-engineering](concepts/loop-engineering.zh.md) | 带状态、停止条件、可评测步骤的显式 loop。 |
+| [loop-engineering](concepts/loop-engineering.zh.md) | 带状态、停止条件、可评测步骤的显式 loop——XingAI 三层地图。 |
 
 ## 综合(`wiki/syntheses/`)
 
@@ -56,6 +56,8 @@ English: [index.md](index.md)
 | [rag-vs-agentic-rag-vs-xingai](syntheses/rag-vs-agentic-rag-vs-xingai.zh.md) | RAG / AI Agent / Multi-Agent RAG 海报对比第 02–05 课——「vs」是假互斥;MCP 无墙。 |
 | [mcp-vs-rag-vs-skills](syntheses/mcp-vs-rag-vs-skills.zh.md) | 三栏海报对比 XingAI:构成关系而非"二选一";Skills≠MCP 工具。 |
 | [mcp-vs-a2a-vs-acp](syntheses/mcp-vs-a2a-vs-acp.zh.md) | MCP(工具) ∥ A2A(对等体);ACP 脚注;XingAI 地图(非 ByteByteGo 三塔)。 |
+| [loop-engineering-toolkit-vs-xingai](syntheses/loop-engineering-toolkit-vs-xingai.zh.md) | Cobus ∞ 工具包海报 vs XingAI Context/Harness/Loop + 硬停止。 |
+| [ai-systems-human-analogy-vs-xingai](syntheses/ai-systems-human-analogy-vs-xingai.zh.md) | 身体器官式 LLM/RAG/Agent/MCP 海报 vs XingAI 组合任务 + 闸门。 |
 | [claims-poc-family-tradeoffs](syntheses/claims-poc-family-tradeoffs.zh.md) | 四个 claims POC 之间 Auth vs Coverage vs 工作流的矩阵(+ event-bus 对照)。 |
 | [review-findings-2026-07-16](syntheses/review-findings-2026-07-16.zh.md) | 课程审计记录:结构、代码、链接、双语一致性。 |
 

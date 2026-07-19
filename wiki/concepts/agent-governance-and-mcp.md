@@ -31,6 +31,7 @@ decision, the same failure class Course 03 names for tool descriptions.
 - [Concept: Decision Ledger pattern](decision-ledger-pattern.md) — governance verdicts belong in ledger rows when you need after-the-fact proof.
 - “MCP vs RAG vs Skills” as mutually exclusive columns — contrast [mcp-vs-rag-vs-skills](../syntheses/mcp-vs-rag-vs-skills.md) and the procedure-vs-capability blog post.
 - MCP (tool hops) vs A2A (peer hops); auth walls do not auto-transfer: [mcp-vs-a2a-vs-acp](../syntheses/mcp-vs-a2a-vs-acp.md).
+- MCP is not a “nervous system” for all AI: [ai-systems-human-analogy-vs-xingai](../syntheses/ai-systems-human-analogy-vs-xingai.md).
 - Long-running MCP + durable execution vs auth walls: [ai-architecture-digest-2026-07-17](../syntheses/ai-architecture-digest-2026-07-17.md).
 
 ## Sources

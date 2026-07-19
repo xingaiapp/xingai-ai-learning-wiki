@@ -49,6 +49,7 @@ Asset: `raw/external/2026-07-16-mcp-vs-rag-vs-skills/`.
 - When ingesting marketing diagrams: fail pages that only retell the three columns.
 - Related ladder poster (RAG → agent → multi-agent MCP): [RAG vs Agentic RAG](rag-vs-agentic-rag-vs-xingai.md).
 - Agent talk protocols (MCP tools vs A2A peers; ACP lineage): [mcp-vs-a2a-vs-acp](mcp-vs-a2a-vs-acp.md).
+- Body-organ LLM/RAG/Agent/MCP analogy: [ai-systems-human-analogy-vs-xingai](ai-systems-human-analogy-vs-xingai.md).
 
 ## Sources
 
