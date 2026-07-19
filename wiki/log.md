@@ -157,3 +157,7 @@ Same image as prior ux-png pass. Added `content.md` transcript; confirmed owners
 ## [2026-07-19] ux-png | AI Systems human analogy (Aiswarya)
 
 Two frames (title+credit; four body rows LLM/RAG/Agent/MCP) → reference-only `raw/external/2026-07-19-ai-systems-human-analogy/`. Evaluate→fix→correct→draw: `wiki/assets/ux/ai-systems-human-analogy/xingai-map.png` (compose jobs + MCP walls + gated agent; MCP ≠ nervous system). Synthesis EN+ZH. Push: not requested.
+
+## [2026-07-19] ingest | AI Systems human analogy (wiki-ingest)
+
+Same Aiswarya frames as prior ux-png. Added `content.md` transcript; confirmed ownership gate (third-party reference-only). Wiki targets already present and previously pushed in `243cd30`: `wiki/syntheses/ai-systems-human-analogy-vs-xingai(.zh).md` + XingAI map embed. No new vanity page.
