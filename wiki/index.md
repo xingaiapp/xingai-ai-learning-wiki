@@ -34,6 +34,7 @@ Start at [overview.md](overview.md) if you're new here. This page is the flat ca
 | [event-bus-ai-review](products/event-bus-ai-review.md) | Event-bus AI review — architecture only, not runnable. |
 | [xingai-engineering-system](products/xingai-engineering-system.md) | Public patterns (Decision Ledger, loops, cache/worker). |
 | [xingai-tech-blog](products/xingai-tech-blog.md) | Selected architecture teaching posts. |
+| [passive-income-idea](products/passive-income-idea.md) | Public daily one-Idea surface (`passive.xingai.app`); fail-closed 未核实; en/zh/ko. |
 
 ## Concepts (`wiki/concepts/`)
 

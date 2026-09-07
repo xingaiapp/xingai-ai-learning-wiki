@@ -35,6 +35,7 @@ English: [index.md](index.md)
 | [event-bus-ai-review](products/event-bus-ai-review.zh.md) | 事件总线 AI 审核——仅架构设计,不可运行。 |
 | [xingai-engineering-system](products/xingai-engineering-system.zh.md) | 公开模式文档(决策台账、loop、cache/worker)。 |
 | [xingai-tech-blog](products/xingai-tech-blog.zh.md) | 精选架构类教学文章。 |
+| [passive-income-idea](products/passive-income-idea.zh.md) | 公开每日一 Idea 站点（`passive.xingai.app`）；未核实 fail-closed；en/zh/ko。 |
 
 ## 概念(`wiki/concepts/`)
 

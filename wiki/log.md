@@ -161,3 +161,7 @@ Two frames (title+credit; four body rows LLM/RAG/Agent/MCP) → reference-only `
 ## [2026-07-19] ingest | AI Systems human analogy (wiki-ingest)
 
 Same Aiswarya frames as prior ux-png. Added `content.md` transcript; confirmed ownership gate (third-party reference-only). Wiki targets already present and previously pushed in `243cd30`: `wiki/syntheses/ai-systems-human-analogy-vs-xingai(.zh).md` + XingAI map embed. No new vanity page.
+
+## [2026-09-07] ingest | Passive Income Idea (public site + UX)
+
+Public product surface `https://passive.xingai.app/` (+ `llms.txt`, `latest-idea.json`) and user-owned desktop Today screenshots → `raw/external/2026-09-07-passive-income-idea/` (`verified: partial`; GitHub repo privacy not confirmed — private ADRs skipped). Product pages EN+ZH: `wiki/products/passive-income-idea(.zh).md` with UX embeds under `wiki/assets/ux/passive-income-idea/`. Indexed. Epistemic: Known/Missing/Rethink/Debate/Needs evidence. Push: not requested.
