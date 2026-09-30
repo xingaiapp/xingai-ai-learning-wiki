@@ -51,6 +51,7 @@ Start at [overview.md](overview.md) if you're new here. This page is the flat ca
 
 | Page | One-line summary |
 |---|---|
+| [research-decision-plane-evidence-contract](syntheses/research-decision-plane-evidence-contract.md) | Research vs Decision planes + Evidence Contract (Invest ADR-055 planned); known/missing/rethink. |
 | [ai-architecture-digest-2026-07-17](syntheses/ai-architecture-digest-2026-07-17.md) | Weekly digest mapped to Courses 02/04/05/10 — durable MCP, evidence RAG, architecture router. |
 | [llm-guardrails-monitoring-vs-xingai](syntheses/llm-guardrails-monitoring-vs-xingai.md) | 10-step + 12-step Plan/Build/Validate/Operate ladders vs XingAI Decide/Gate/Run map (references only; corrected UX PNG). |
 | [rag-vs-agentic-rag-vs-xingai](syntheses/rag-vs-agentic-rag-vs-xingai.md) | RAG / AI Agent / Multi-Agent RAG poster vs Courses 02–05 — “vs” false; MCP without walls. |
