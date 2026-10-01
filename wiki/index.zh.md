@@ -52,6 +52,7 @@ English: [index.md](index.md)
 
 | 页面 | 一句话摘要 |
 |---|---|
+| [shared-cpu-cqrs-console-read-path](syntheses/shared-cpu-cqrs-console-read-path.zh.md) | 共享 CPU 的 CQRS：CDN + 并行登录 + OHLCV 增量（Invest ADR-056）；Known/Missing/Rethink。 |
 | [research-decision-plane-evidence-contract](syntheses/research-decision-plane-evidence-contract.zh.md) | 研究平面 vs 决策平面 + 证据契约（Invest ADR-055 planned）；Known/Missing/Rethink。 |
 | [ai-architecture-digest-2026-07-17](syntheses/ai-architecture-digest-2026-07-17.zh.md) | 周报映射到课程 02/04/05/10——长任务 MCP、证据 RAG、架构路由。 |
 | [llm-guardrails-monitoring-vs-xingai](syntheses/llm-guardrails-monitoring-vs-xingai.zh.md) | 10 步 + 12 步 Plan/Build/Validate/Operate 阶梯 vs XingAI Decide/Gate/Run 地图（海报仅参考；纠正后 UX PNG）。 |
